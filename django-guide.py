@@ -1,6 +1,6 @@
 django/mysite/mysite
-# mysite =  Real Project
-# mysite(outer) = mysite(Project) container by default
+# Outer mysite/ = root dir, container for project.
+# Inner mysite/ =  Real Project
 
 # Put virtualenv parallel to mysite(outer):container
 # Name 'mysite'(outer) can be changed
