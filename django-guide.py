@@ -64,3 +64,10 @@ from books.models import Publisher
 >>> Publisher.objects.order_by("name") # (-name) for reverse ordering
 >>> Publisher.objects.order_by("state_province", "address")
 
+#************** Template
+{% if %} ...... {% endif %}
+{% for %} ..... {% endfor %}
+{{ name }} for variable
+
+{{ name|lower }}  #filter: convert to lowercase
+{{ my_list|first|upper }} #take the first element in the list & convert it to uppercase
