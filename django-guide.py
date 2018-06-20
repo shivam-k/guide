@@ -48,15 +48,19 @@ python manage.py Createsuperuser
 from polls.models import Question, Choice
 from books.models import Publisher
 
-q = Question(question_text="What's new?", pub_date=timezone.now())
-q.save()
+>>> q = Question(question_text="What's new?", pub_date=timezone.now())
+>>> q.save()
 
-p = Publisher.objects.create(..............)  #auto save
+>>> p = Publisher.objects.create(..............)  #auto save
 
-Question.objects.all() # objects.all() displays all the questions in the database
+>>> Question.objects.all() # objects.all() displays all the questions in the database
 
-Question.objects.filter(id=1) #Returns a QuerySet, as in list
-Publisher.objects.filter(country="U.S.A.", state_province="CA")
+>>> Question.objects.filter(id=1) #Returns a QuerySet, as in list
+>>> Publisher.objects.filter(country="U.S.A.", state_province="CA")
 
-Question.objects.get(id=1) #Retrieve single objects
-Publisher.objects.get(name="Apress")
+>>> Question.objects.get(id=1) #Retrieve single objects
+>>> Publisher.objects.get(name="Apress")
+
+>>> Publisher.objects.order_by("name") # (-name) for reverse ordering
+>>> Publisher.objects.order_by("state_province", "address")
+
