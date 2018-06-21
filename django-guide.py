@@ -90,3 +90,4 @@ from books.models import Publisher
 
 {{ name|lower }}  #filter: convert to lowercase
 {{ my_list|first|upper }} #take the first element in the list & convert it to uppercase
+
