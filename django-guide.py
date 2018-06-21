@@ -64,6 +64,10 @@ from books.models import Publisher
 >>> Publisher.objects.order_by("name") # (-name) for reverse ordering
 >>> Publisher.objects.order_by("state_province", "address")
 
+>>> new_article = r.article_set.create(headline="John's second story", pub_date=date(2005, 7, 29)) #r being the class Reporter
+>>> a = Article(id=None, headline="This is a test", pub_date=date(2005, 7, 27), reporter=r) #diff way 
+>>> a.save()
+
 #************** Template
 {% if %} ...... {% endif %}
 {% for %} ..... {% endfor %}
