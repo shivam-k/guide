@@ -4,3 +4,5 @@ New Platform
 * Awareness about possibilities and opportunities (organisations, rules & regulations, etc)
 * Connected everthing (organisations, NGO, etc) related to Disability at one place.
 * Employment
+
+Book: Common Stocks and Uncommon Profits
