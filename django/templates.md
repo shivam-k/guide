@@ -12,3 +12,8 @@ DTL
 ```
 * Tags: provide arbitrary logic in the rendering process. {% and %}
 * Filters: transform the values of variables and tag arguments. {{ django|title }}
+
+Template Inheritance
+--------------------
+{% block title %}{% endblock %}
+{% extends "base.html" %}
