@@ -16,8 +16,10 @@ DTL
 Template Inheritance
 --------------------
 * 
-```{% block title %}{% endblock %}
-{% extends "base.html" %}```
+```
+{% block title %}{% endblock %}
+{% extends "base.html" %} 
+```
 
 * 
 ```
