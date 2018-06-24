@@ -30,4 +30,5 @@ Template Inheritance
 {{ name|lower }}  #filter: convert to lowercase
 {{ my_list|first|upper }} #take the first element in the list & convert it to uppercase
 ```
-* ```{{block.super}} ```
+* ```{{block.super}} ``` :  get the content from the parent template block
+* ```{% include "footer.html" %}``` 
