@@ -78,13 +78,3 @@ q.article_set.all() #q being reference to another reporter
 
 Template
 -----------------
-*
-```
-{% if %} ...... {% endif %}
-{% for %} ..... {% endfor %}
-{{ name }} for variable
-
-{{ name|lower }}  #filter: convert to lowercase
-{{ my_list|first|upper }} #take the first element in the list & convert it to uppercase
-```
-* ```{{block.super}} ```
