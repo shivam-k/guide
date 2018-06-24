@@ -15,5 +15,15 @@ DTL
 
 Template Inheritance
 --------------------
-{% block title %}{% endblock %}
+* {% block title %}{% endblock %}
 {% extends "base.html" %}
+
+* ```
+{% if %} ...... {% endif %}
+{% for %} ..... {% endfor %}
+{{ name }} for variable
+
+{{ name|lower }}  #filter: convert to lowercase
+{{ my_list|first|upper }} #take the first element in the list & convert it to uppercase
+```
+* ```{{block.super}} ```
