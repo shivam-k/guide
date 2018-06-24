@@ -23,49 +23,64 @@ use ```ManyToManyField``` as a Field type
 ### One-to-one
 use ```OneToOneField``` as a Field Type
 
-#************ Model Data Access
+Model Data Access
+-----------------
+```
 from polls.models import Question, Choice
 from books.models import Publisher
 
->>> q = Question(question_text="What's new?", pub_date=timezone.now())
->>> q.save()
+q = Question(question_text="What's new?", pub_date=timezone.now())
+q.save()
 
->>> p = Publisher.objects.create(..............)  #auto save
+p = Publisher.objects.create(..............)  #auto save
 
->>> Question.objects.all() # objects.all() displays all the questions in the database
+Question.objects.all() # objects.all() displays all the questions in the database
 
->>> Question.objects.filter(id=1) #Returns a QuerySet, as in list
->>> Publisher.objects.filter(country="U.S.A.", state_province="CA")
+Question.objects.filter(id=1) #Returns a QuerySet, as in list
+Publisher.objects.filter(country="U.S.A.", state_province="CA")
 
->>> Question.objects.get(id=1) #Retrieve single objects
->>> Publisher.objects.get(name="Apress")
+Question.objects.get(id=1) #Retrieve single objects
+Publisher.objects.get(name="Apress")
 
->>> Publisher.objects.order_by("name") # (-name) for reverse ordering
->>> Publisher.objects.order_by("state_province", "address")
-
-
-#***********Creating Relationships
-#Create an article
->>> a = Article(id=None, headline="This is a test", pub_date=date(2005, 7, 27), reporter=r) #diff way 
->>> a.save()
-
-#Create an article by the reporter object
->>> new_article = r.article_set.create(headline="John's second story", pub_date=date(2005, 7, 29)) #r being the class Reporter
-
-#Create a new article, and add it to the article set:
->>> new_article2 = Article.objects.create(headline="Paul's story", pub_date=date(2006, 1, 17))
->>> r.article_set.add(new_article2)
-
->>> Article.objects.all() # all articles
->>> r.article_set.all() #r being reference to one reporter
->>> q.article_set.all() #q being reference to another reporter
+Publisher.objects.order_by("name") # (-name) for reverse ordering
+Publisher.objects.order_by("state_province", "address")
+```
 
 
+Creating Relationships
+------------------------
+* Create an article
+```
+a = Article(id=None, headline="This is a test", pub_date=date(2005, 7, 27), reporter=r) #diff way 
+a.save()
+```
 
-#************** Template
+* Create an article by the reporter object
+```
+new_article = r.article_set.create(headline="John's second story", pub_date=date(2005, 7, 29)) #r being the class Reporter
+```
+
+* Create a new article, and add it to the article set:
+```
+new_article2 = Article.objects.create(headline="Paul's story", pub_date=date(2006, 1, 17))
+r.article_set.add(new_article2)
+```
+
+```
+Article.objects.all() # all articles
+r.article_set.all() #r being reference to one reporter
+q.article_set.all() #q being reference to another reporter
+```
+
+
+
+Template
+-----------------
+```
 {% if %} ...... {% endif %}
 {% for %} ..... {% endfor %}
 {{ name }} for variable
 
 {{ name|lower }}  #filter: convert to lowercase
 {{ my_list|first|upper }} #take the first element in the list & convert it to uppercase
+```
