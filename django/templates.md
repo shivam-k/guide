@@ -15,10 +15,12 @@ DTL
 
 Template Inheritance
 --------------------
-* {% block title %}{% endblock %}
-{% extends "base.html" %}
+* 
+```{% block title %}{% endblock %}
+{% extends "base.html" %}```
 
-* ```
+* 
+```
 {% if %} ...... {% endif %}
 {% for %} ..... {% endfor %}
 {{ name }} for variable
