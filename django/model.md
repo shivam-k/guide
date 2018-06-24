@@ -9,9 +9,10 @@ null, blank, choices, deault, help_text, primary_key, unique
 
 Relationships: 
 --------------
+* ```on_delete``` to be considered
 ### Many-to-one
-use ```django.db.models.ForeignKey``` as a Field type
-* ForeignKey requires a positional argument: the class to which the model is related.
+use django.db.models.ForeignKey as a Field type
+* ```ForeignKey``` requires a positional argument: the class to which the model is related.
 
 ### Many-to-many
 use ```ManyToManyField``` as a Field type
@@ -22,6 +23,7 @@ use ```ManyToManyField``` as a Field type
 
 ### One-to-one
 use ```OneToOneField``` as a Field Type
+* ```item = models.OneToOneField(Item,on_delete=models.CASCADE,primary_key=True)```
 
 Model Data Access
 -----------------
@@ -76,6 +78,7 @@ q.article_set.all() #q being reference to another reporter
 
 Template
 -----------------
+*
 ```
 {% if %} ...... {% endif %}
 {% for %} ..... {% endfor %}
@@ -84,3 +87,4 @@ Template
 {{ name|lower }}  #filter: convert to lowercase
 {{ my_list|first|upper }} #take the first element in the list & convert it to uppercase
 ```
+* ```{{block.super}} ```
