@@ -10,4 +10,4 @@
 * **Bound** and **unbound** form instances
 * Whatever the data submitted with a form, once it has been successfully validated by calling **is_valid()** (and is_valid() has returned True), the validated form data will be in the ```form.cleaned_data``` dictionary.
 * ```ModelForm```: let deal with model directly
- * Each model field has a corresponding default form field. For example, a CharField on a model is represented as a CharField on a form. A model ManyToManyField is represented as a MultipleChoiceField
+  * Each model field has a corresponding default form field. For example, a CharField on a model is represented as a CharField on a form. A model ManyToManyField is represented as a MultipleChoiceField
