@@ -1,6 +1,7 @@
 * Support for template engines
 * The Django template language (DTL)
 * Jinja template (in addition)
+
 DTL
 ----
 * A template is rendered with a context. Rendering replaces variables with their values, which are looked up in the context (a dict-like object mapping keys to values), and executes tags. Everything else is output as is.
