@@ -24,15 +24,18 @@ use ```ManyToManyField``` as a Field type
 ### One-to-one
 use ```OneToOneField``` as a Field Type
 * ```item = models.OneToOneField(Item,on_delete=models.CASCADE,primary_key=True)```
-  * 
-  >> Blog.objects.get(id__exact=14)  # Explicit form
-  
-  >> Blog.objects.get(id=14)         # __exact is implied
 
 Model Data Access
 -----------------
-* Retrieving specific objects with filters: **filter(**kwargs)** & **exclude(**kwargs)**
+* **Looksup**: Retrieving specific objects with filters: **filter(**kwargs)** & **exclude(**kwargs)**
     * **Field Lookups**: are how you specify the meat of an SQL WHERE clause. They’re specified as keyword arguments to the QuerySet methods **filter()**, **exclude()** and **get()**.
+    * If you don’t provide a lookup type – that is, if your keyword argument doesn’t contain a double underscore – the lookup type is assumed to be exact. Both are same:
+    ```
+    >> Blog.objects.get(id__exact=14)  #Explicit form
+    >> Blog.objects.get(id=14)         #__exact is implied
+    ```
+    * Many lookups are available: exact, iexact, contains, icontains, startswith, endswith, istartswith, iendswith
+    * Lookups that span relationships
 
 ```
 from polls.models import Question, Choice
