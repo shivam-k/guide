@@ -15,6 +15,7 @@ Writing Views
 * For direcly rendering template in url:
 ```
 from django.views.generic import TemplateView
+from coffeehouse.about import views as about_views     #to avoid confusion in multiple views
 urlpatterns = [
   url(r'^temp$', TemplateView.as_view(template_name='base.html')),
 ]
