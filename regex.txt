@@ -14,7 +14,7 @@ $       - End of a String
 []      - Matches Characters in brackets
 [^ ]    - Matches Characters NOT in brackets
 |       - Either Or
-( )     - Group
+( )     - Group; (ex|abc)-> will match either of them
 
 Quantifiers:
 *       - 0 or More
@@ -22,6 +22,9 @@ Quantifiers:
 ?       - 0 or One
 {3}     - Exact Number
 {3,4}   - Range of Numbers (Minimum, Maximum)
+
+Inline Modifiers:
+(?i)      - Case-insensitive mode     Eg: (?i)Monday      Sample Match: monDAY
 
 
 #### Sample Regexs ####
