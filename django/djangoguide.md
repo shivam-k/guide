@@ -60,7 +60,8 @@ python manage.py shell
   * ```migrate``` for the first time: to move already created migrations to the database.
   * ```makemigrations``` if there is any change done in the models
 * Create an app, and write into the models
-  * Activate the app by chnaging into the ```INSTALLED_APPS``` in **settings**.
+  * Activate the app by chnaging into the ```INSTALLED_APPS``` in **settings.py**.
+  * Define the template directory in the **DIRS** property of the **TEMPLATES** variable.
   * Make ```makemigrations``` & ```migrate```.
   * Play with API
 * Django Admin
