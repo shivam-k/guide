@@ -84,7 +84,43 @@ r.article_set.all() #r being reference to one reporter
 q.article_set.all() #q being reference to another reporter
 ```
 
+* Connecting posts to the questions, as for relationships, are done two ways:
+      * 
+      
+        ```
+        q = Question.objects.get(id=1) #Question by id=1
+        Choice.objects.create(choice_text='Just Fine', votes=2, question=q) #question is key for relationship between bewteen QUestion & Choice.
+        ```
+        
+        ```
+        q = Question.objects.get(id=1) #Question by id=1
+        q.choice_set.create(choice_text='Just Fine', votes=2) #Here QUestion key is not required in the argument.
+        ```
 
 
-Template
+Django Admin
 -----------------
+* Register & Configure Django models in ```admin.py```. Although you can technically use a single ```admin.py``` to register and configure all Django models -- just like you can have a single ```models.py``` to define all Django models -- it's a recommended practice that each Django app use its own ```admin.py``` file to manage its corresponding model defined in ```models.py```.
+
+There are three ways to register a Django model for the Django admin in admin.py file: 
+
+```
+from django.contrib import admin
+from coffeehouse.stores.models import Store
+
+# Option 1 - Basic
+admin.site.register(Store)    
+                            
+# Option 2 - Allows customizing Django admin behavior
+class StoreAdmin(admin.ModelAdmin):
+      pass
+admin.site.register(Store, StoreAdmin)
+
+# Option 3 -- Decorator
+@admin.register(Store)
+class StoreAdmin(admin.ModelAdmin):
+      pass
+```
+
+* ```__str__``` definition is primitive in models class.
+* 
