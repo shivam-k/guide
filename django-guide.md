@@ -1,10 +1,10 @@
 django/mysite/mysite
 
-##### Outer mysite/ = root dir, container for project.
-##### Inner mysite/ =  Real Project
+>> Outer mysite/ = root dir, container for project.
+>> Inner mysite/ =  Real Project
+>> Put virtualenv parallel to mysite(outer):container
+>> Name 'mysite'(outer) can be changed
 
-##### Put virtualenv parallel to mysite(outer):container
-##### Name 'mysite'(outer) can be changed
 ```python3 --version```
 
 <!--#Create Container Folder: 'mysite-container'-->
