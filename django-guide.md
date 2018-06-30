@@ -1,55 +1,57 @@
 django/mysite/mysite
 
-# Outer mysite/ = root dir, container for project.
+<!--# Outer mysite/ = root dir, container for project.-->
+<!--# Inner mysite/ =  Real Project-->
 
-# Inner mysite/ =  Real Project
+<!--# Put virtualenv parallel to mysite(outer):container-->
+<!--# Name 'mysite'(outer) can be changed-->
+```python3 --version```
 
-# Put virtualenv parallel to mysite(outer):container
-# Name 'mysite'(outer) can be changed
-
-
-python3 --version
-
-#Create Container Folder: 'mysite-container'
+<!--#Create Container Folder: 'mysite-container'-->
+```
 makdir django
 cd django
-
-
-# Virtual Environment
+```
+### Virtual Environment
+```
 sudo apt install python3-venv #in case the bottom one throws errors
 
 python3 -m venv myvenv #virtualenv called 'myvenv' parallel to mysite-container
 source myvenv/bin/activate
-
-# Installing Django
+```
+### Installing Django
+```
 pip install --upgrade pip  #upgrade pip
 pip install django
 python -m django --version
-
-# Start Project
+```
+### Start Project
+```
 django-admin startproject mysite #will create 'mysite/mysite', inner mysite being the real Project Folder
 
 cd mysite
+```
+### Runserver
+```python manage.py runserver```
 
-# Runserver
-python manage.py runserver
-
-# Startapp
+### Startapp
+```
 python manage.py startapp polls
-
-# Migrations
+```
+### Migrations
+```
 python manage.py makemigrations polls # send into the file
 python manage.py migrate #implement in database
 
 python manage.py sqlmigrate polls 0001
 python manage.py check
 python manage.py shell
+```
 
-# Admin
-python manage.py Createsuperuser
+### Admin
+```python manage.py Createsuperuser```
 
------------------
-
+-----------------------------
 * Setup the django project and run the server.
 * Migrating
   * ```migrate``` for the first time: to move already created migrations to the database.
