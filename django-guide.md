@@ -1,5 +1,7 @@
 django/mysite/mysite
+
 # Outer mysite/ = root dir, container for project.
+
 # Inner mysite/ =  Real Project
 
 # Put virtualenv parallel to mysite(outer):container
@@ -46,5 +48,17 @@ python manage.py shell
 # Admin
 python manage.py Createsuperuser
 
+-----------------
 
+* Setup the django project and run the server.
+* Migrating
+  * ```migrate``` for the first time: to move already created migrations to the database.
+  * ```makemigrations``` if there is any change done in the models
+* Create an app, and write into the models
+  * Activate the app by chnaging into the ```INSTALLED_APPS``` in **settings**.
+  * Make ```makemigrations``` & ```migrate```.
+  * Play with API
+* Django Admin
+  * ```createsuperuser```
+  * Register user **models** into ```admins.py```
 
