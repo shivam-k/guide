@@ -14,6 +14,8 @@ cd django
 
 
 # Virtual Environment
+sudo apt install python3-venv #in case the bottom one throws errors
+
 python3 -m venv myvenv #virtualenv called 'myvenv' parallel to mysite-container
 source myvenv/bin/activate
 
