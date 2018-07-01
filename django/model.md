@@ -11,7 +11,7 @@ Relationships:
 --------------
 * ```on_delete``` to be considered
 ### Many-to-one
-use django.db.models.ForeignKey as a Field type
+use ```django.db.models.ForeignKey``` as a Field type
 * ```ForeignKey``` requires a positional argument: the class to which the model is related.
 
 ### Many-to-many
