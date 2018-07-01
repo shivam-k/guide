@@ -12,12 +12,16 @@ DTL
 {{ my_list.0 }}
 ```
 * **Tags:** provide arbitrary logic in the rendering process. {% tag %}
->> {% if %} ...... {% endif %},
->> {% for %} ..... {% endfor %},
+```
+{% if %} ...... {% endif %}
+{% for %} ..... {% endfor %}
+```
 * **Filters:** Modify variable for display. {{ django|title }}; Chained FIlter: {{ text|escape|linebreaks }} 
->> {{ value|default:"nothing" }},
->> {{ value|length }},
->> {{ value|filesizeformat }},
+```
+{{ value|default:"nothing" }}
+{{ value|length }}
+{{ value|filesizeformat }}
+```
 
 60 built-in filters are available; and even custom template Tags and Filters are available.
 
