@@ -5,25 +5,24 @@
 DTL
 ----
 * A template is rendered with a context. Rendering replaces variables with their values, which are looked up in the context (a dict-like object mapping keys to values), and executes tags. Everything else is output as is.
-* Variables: {{ and }}. Dictionary lookup, attribute lookup and list-index lookups are implemented with a dot notation:
+* Django template constructs:
 ```
-{{ my_dict.key }}
-{{ my_object.attribute }}
-{{ my_list.0 }}
+{{output_variable}}  {{store.name}}
+{% tag %}
+variable|filter
 ```
-* **Tags:** provide arbitrary logic in the rendering process. {% tag %}
-```
-{% if %} ...... {% endif %}
-{% for %} ..... {% endfor %}
-```
-* **Filters:** Modify variable for display. {{ django|title }}; Chained FIlter: {{ text|escape|linebreaks }} 
-```
-{{ value|default:"nothing" }}
-{{ value|length }}
-{{ value|filesizeformat }}
-```
-
 60 built-in filters are available; and even custom template Tags and Filters are available.
+* Output warning message for invalid template variables with ```string_if_invalid```
+* Error generation for invalid template variables with ```string_if_invalid```
+
+#### Built-in Django filters
+* Django filters are designed to format template variables. Multiple filters on the same variable can be used.
+```
+{{variable|filter}} {{variable|filter|filter}}
+```
+to be done from **WebForeFront**
+#### Built-in Django tags
+to be done from **WebForeFront**
 
 Template Inheritance
 --------------------
