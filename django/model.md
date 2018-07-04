@@ -34,7 +34,7 @@ Model Data Access
     >> Blog.objects.get(id__exact=14)  #Explicit form
     >> Blog.objects.get(id=14)         #__exact is implied
     ```
-    * Many lookups are available: exact, iexact, contains, icontains, startswith, endswith, istartswith, iendswith
+    * Many lookups are available: _exact, iexact, contains, icontains, startswith, endswith, istartswith, iendswith_
     * Lookups that span relationships
 
 ```
