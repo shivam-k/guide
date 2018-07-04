@@ -7,17 +7,14 @@ Urls
 * Specifying defaults for view arguments
 * Customizing error views
 * Including other URLconfs: urlpatterns can “include” other URLconf modules
-* For direcly rendering template in url:
+* **TemplateView** (For direcly rendering template in url) & **RedirectView**:
 ```
 from django.views.generic import TemplateView
 from coffeehouse.about import views as about_views     #to avoid confusion in multiple views
 urlpatterns = [
   url(r'^temp$', TemplateView.as_view(template_name='base.html')),
+  path('go-to-django/', RedirectView.as_view(url='https://djangoproject.com'),
 ]
-```
-* RedirectView
-```
-path('go-to-django/', RedirectView.as_view(url='https://djangoproject.com'),
 ```
 #### Django url parameter definition for access in templates
 
@@ -30,8 +27,8 @@ urlpatterns = [
 * The value of **drink_name** from **<drink_name>** & **question_id** from **<question_id>** can be accessed in ```veiws.py``` and also in ```Template```.
   * value of ```\D+``` is assigned to **drink_name** & of **int** to **question_id**
   * Value in **template** through ```{{ drink_name }}``` can be accessed, and in **view** through ```def detail(request, question_id):```
-* ```url(r'^stores/',stores_views.detail,{'location':'headquarters'})``` URL extra options
-* ```def detail(request,store_id='1',location=None):``` Deault Values in views
+* ```url(r'^stores/',stores_views.detail,{'location':'headquarters'})``` **URL extra options**
+* ```def detail(request,store_id='1',location=None):``` **Deault Values in views**
 * Django url parameters are always treated as strings
 
 #### Django view method extracting url parameters with request.GET
@@ -71,7 +68,7 @@ def method(request):
 
 Views
 -------------
-* View function takes Web request (Httpequest) and returns Web reponse (HttpResponse). This reponse can be anything: HTML, a redirect, a 404 error, an XML document, an image, etc. 
+* View function takes Web request (HttpRequest) and returns Web reponse (HttpResponse). This reponse can be anything: HTML, a redirect, a 404 error, an XML document, an image, etc. 
 * Returning errors: The Http404 exception (commonly)
 * ```request``` object, present in view method, contains information set by entities present before a view method: a user's web browser, the web server that runs the application or a Django middleware class configured on the application. Common attributes and methods available in a ```request``` reference:
 ```
