@@ -9,7 +9,7 @@ DTL
 ```
 {{output_variable}}  {{store.name}}
 {% tag %}
-variable|filter
+{{ variable|filter }}
 ```
 60 built-in filters are available; and even custom template Tags and Filters are available.
 * Output warning message for invalid template variables with ```string_if_invalid```
