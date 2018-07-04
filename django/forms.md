@@ -203,5 +203,9 @@ class ContactForm(forms.Form):
  ```
 * By default, all Django form fields are marked as required. (for not ```none``` or empty string ```''```, ```required=False```)
 
-#### Error messages: error_messages
-#### Field layout values: label, label_suffix, help_text
+* #### Error messages: error_messages
+* #### Field layout values: label, label_suffix, help_text
+
+## Custom form fields output in templates
+--------------------------
+* Use ```form.<field_name>``` to output custom form field
