@@ -1,4 +1,5 @@
 * ```GET``` & ```POST```: two most common HTTP methods
+* Use ```form.<field_name>``` to output custom form field in Template
 * ```Form Class```: Same as models in Django.
   * Define fields
   * Use ```is_valid()``` method
@@ -208,4 +209,4 @@ class ContactForm(forms.Form):
 
 ## Custom form fields output in templates
 --------------------------
-* Use ```form.<field_name>``` to output custom form field
+
