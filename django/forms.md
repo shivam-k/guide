@@ -1,9 +1,9 @@
-* ```GET``` & ```POST```: tow most common HTTP methods
+* ```GET``` & ```POST```: two most common HTTP methods
 * ```Form Class```: Same as models in Django.
   * Define fields
   * Use ```is_valid()``` method
   * ```Cleaned_data()```
-  * View to catch the from data
+  * View to catch the form data
  
 * ```Widget class```: Each field type has an appropriate default **Widget class**, but these can be overridden as required.
 * ```form classes```: are created as subclasses of either ```django.forms.Form``` or ```django.forms.ModelForm```. 
