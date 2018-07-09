@@ -42,7 +42,9 @@ def contact(request):
 {{ form.as_p }} 
 {{ form.as_ul }}
 ```
-## View method that sends and processes Django form
+## Django Form Processing: Initilization, Field Access, Validation and Error Handling 
+
+* View method that sends and processes Django form
 ```
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
@@ -62,7 +64,7 @@ def contact(request):
         form = ContactForm()
     return render(request,'about/contact.html',{'form':form})
 ```
-## Form instance with initial argument declared in view method
+* Form instance with initial argument declared in view method
 ```
 def contact(request):
         ....
@@ -74,7 +76,7 @@ def contact(request):
     # Reference form instance (bound/unbound) is sent to template for rendering
     return render(request,'about/contact.html',{'form':form})
 ```
-## Form fields with initial argument
+* Form fields with initial argument
 ```
 from django import forms
 
@@ -93,13 +95,17 @@ def contact(request):
     # Reference form instance (bound/unbound) is sent to template for rendering
     return render(request,'about/contact.html',{'form':form})
 ```
-## Accessing form values: request.POST and cleaned_data
+* Form initialized with ```__init__``` method
+	* to be done
+## Django Form Processing: Field Access
+* Accessing form values: ```request.POST```: unvalidated data;  and ```cleaned_data```: validated data
 * Data in ```request.POST``` are treated as srings, so pass them through ```cleaned_data```. (Can't access **cleaned_data** until  **is_valid** is called on the form.
+* Impossible to call ```cleaned_data``` dictionary unless you first call the ```is_valid()``` method.
 ```
 form.cleaned_data['name'] to access **name** value.
 ```
-## Validating form values : is_valid(), validators, clean_<field>() and clean()
- * #### Django form is_valid() method for form processing
+## Django Form Processing: Validation: is_valid(), validators, clean_<field>() and clean()
+* form is_valid() method for form processing
    * Calling ```is_valid()``` also creates the ```cleaned_data``` dictionary on the form instance to hold the form field values that passed validation rules.
    * Calling ```is_valid()``` also creates the ```errors``` dictionary on the form instance to hold the form errors for each of the fields that didn't pass the validation rules.
 	
@@ -128,55 +134,56 @@ form.cleaned_data['name'] to access **name** value.
     # Reference form instance (bound/unbound) is sent to template for rendering
     return render(request,'about/contact.html',{'form':form})
  ```
- * #### Django form field validators option with custom validator method for form processing
-   * you can equally re-use the custom validate_comment_word_count() method on any other form field in the same form or in another Django form through the validators option. In addition, you can also apply multiple validators to a field since the validators option accepts a list of validators.
+ * For more sophisticated validation after ```is_valid```, django provides 3 efficient ways to do it. 
+ 	* Form field validators option with custom validator method: raises a ```forms.ValidationError```
+   		* The custom ```validate_comment_word_count()``` method can be re-used on any other form field in the same form or in another Django form through the validators option. In addition, you can also apply multiple validators to a field since the validators option accepts a list of validators.
  
- ```
- from django import forms
-import re
+ 	```
+ 	from django import forms
+	import re
 
-def validate_comment_word_count(value):
-      count = len(value.split())
-      if count < 30:
+	def validate_comment_word_count(value):
+      	count = len(value.split())
+      	if count < 30:
             raise forms.ValidationError(('Please provide at least a 30 word message,
 	    %(count)s words is not descriptive enough'), params={'count': count},)
 
-class ContactForm(forms.Form):
-      name = forms.CharField(required=False)
-      email = forms.EmailField(label='Your email')
-      comment = forms.CharField(widget=forms.Textarea,validators=[validate_comment_word_count])
- ```
-* #### Form field validation with clean_<field>() methods
- 
- ```
- from django import forms
+	class ContactForm(forms.Form):
+      		name = forms.CharField(required=False)
+      		email = forms.EmailField(label='Your email')
+      		comment = forms.CharField(widget=forms.Textarea,validators=[validate_comment_word_count])
+ 	```
+	* Form field validation with clean_<field>() methods
+	
+         ```
+        from django import forms
 
-class ContactForm(forms.Form):
-      name = forms.CharField(required=False)
-      email = forms.EmailField(label='Your email')
-      comment = forms.CharField(widget=forms.Textarea)
-      def clean_name(self):
-          # Get the field value from cleaned_data dict
-          value = self.cleaned_data['name']
-          # Check if the value is all upper case
-          if value.isupper():
-             # Value is all upper case, raise an error
-             raise forms.ValidationError("""Please don't use all upper 
-                  case for your name, use lower case""",code='uppercase')
-          # Always return value 
-          return value
-      def clean_email(self):
-          # Get the field value from cleaned_data dict
-          value = self.cleaned_data['email']
-          # Check if the value end in @hotmail.com
-          if value.endswith('@hotmail.com'):
-             # Value ends in @hotmail.com, raise an error
-             raise forms.ValidationError("""Please don't use a hotmail email,
-                                    we simply don't like it""",code='hotmail')
-          # Always return value 
-          return value
- ```
- * #### Form field validation with clean() method
+        class ContactForm(forms.Form):
+            name = forms.CharField(required=False)
+            email = forms.EmailField(label='Your email')
+            comment = forms.CharField(widget=forms.Textarea)
+            def clean_name(self):
+                # Get the field value from cleaned_data dict
+                value = self.cleaned_data['name']
+                # Check if the value is all upper case
+                if value.isupper():
+                    # Value is all upper case, raise an error
+                    raise forms.ValidationError("""Please don't use all upper 
+                        case for your name, use lower case""",code='uppercase')
+                # Always return value 
+                return value
+            def clean_email(self):
+                # Get the field value from cleaned_data dict
+                value = self.cleaned_data['email']
+                # Check if the value end in @hotmail.com
+                if value.endswith('@hotmail.com'):
+                    # Value ends in @hotmail.com, raise an error
+                    raise forms.ValidationError("""Please don't use a hotmail email,
+                                            we simply don't like it""",code='hotmail')
+                # Always return value 
+                return value
+        ```
+	* Form field validation with clean() method
  
  ```
  from django import forms
