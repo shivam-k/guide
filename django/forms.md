@@ -35,13 +35,6 @@ def contact(request):
     form = ContactForm()    #crested form instance
     return render(request,'about/contact.html',{'form':form})
 ```
-
-* Form instance rendered in template as HTML
-```
-{{ form.as_table }}
-{{ form.as_p }} 
-{{ form.as_ul }}
-```
 ## Django Form Processing: Initilization, Field Access, Validation and Error Handling 
 
 * View method that sends and processes Django form
@@ -211,9 +204,39 @@ class ContactForm(forms.Form):
  PasswordInput, HiddenInput, MultipleHiddenInput, Textarea, CheckboxSelectMultiple, SelectDateWidget, SplitHiddenDateTimeWidget, FileInput
  ```
 * By default, all Django form fields are marked as required. (for not ```none``` or empty string ```''```, ```required=False```)
+* Empty, default and predetermined values: required, initial and choices.
+* Limiting text values: max_length, min_length, strip and validators
+* Limiting number values: max_value, min_value, max_digits, decimal_places and validators.
+* Error messages: error_messages
+* Field layout values: label, label_suffix, help_text
 
-* #### Error messages: error_messages
-* #### Field layout values: label, label_suffix, help_text
-
-
-
+## Layout For Django forms in templates
+* Two ways for form layout: pre-built HTML & output each field separately (responsive). Many ways to output forms errors
+* Output form fields:
+```
+{{ form.as_table }}
+{{ form.as_p }} 
+{{ form.as_ul }}
+```
+* For custom output of fields: with many field attributes
+	```
+	{{form.<field_name>}} {{form.<field_name>.name}} {{form.<field_name>.value}} {{form.<field_name>.label}} {{form.	<field_name>.id_for_label}} {{form.<field_name>.auto_id}} .................etcetera
+	```
+	* form ```{% for %}``` loop over all fields
+	
+	```
+	{% for field in form %}
+    <div class="row">
+       <div class="col-md-2">    
+        {{ field.label_tag }}
+        {% if field.help_text %}
+          <sup>{{ field.help_text }}</sup>
+        {% endif %}
+        {{ field.errors }}
+       </div><div class="col-md-10 pull-left">
+         {{ field }}
+       </div>
+    </div>
+ 	{% endfor %}
+	```
+	
