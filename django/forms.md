@@ -238,5 +238,19 @@ class ContactForm(forms.Form):
        </div>
     </div>
  	{% endfor %}
-	```
 	
+	# Use {{field.as_hidden}} to hide 
+	```
+* Output field order: field_order and order_fields
+	* ```field_order=['email','name','comment']``` outputs the email field first, followed by name and comment.
+```
+from django import forms
+
+class ContactForm(forms.Form):
+      name = forms.CharField(required=False)
+      email = forms.EmailField(label='Your email')
+      comment = forms.CharField(widget=forms.Textarea)
+      field_order = ['email','comment','name']
+```
+
+## Output form field errors: form.<field_name>.errors, form.errors, form.non_field_errors
