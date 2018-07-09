@@ -25,7 +25,7 @@ class ContactForm(forms.Form):
 ```
 >> There's no specific location Django expects forms to be in. You can equally place Django form classes in their own file inside an app (e.g. **forms.py**) or place them inside other app files (e.g. models.py, views.py). You can later import Django form classes to where they're needed, just like Django views or Python packages.
 
-## View method that uses a Django form
+* View method that uses a Django form
 ```
 # views.py in app named 'contact'
 from django.shortcuts import render
@@ -36,7 +36,7 @@ def contact(request):
     return render(request,'about/contact.html',{'form':form})
 ```
 
-## Form instance rendered in template as HTML
+* Form instance rendered in template as HTML
 ```
 {{ form.as_table }}
 {{ form.as_p }} 
@@ -97,13 +97,13 @@ def contact(request):
 ```
 * Form initialized with ```__init__``` method
 	* to be done
-## Django Form Processing: Field Access
-* Accessing form values: ```request.POST```: unvalidated data;  and ```cleaned_data```: validated data
-* Data in ```request.POST``` are treated as srings, so pass them through ```cleaned_data```. (Can't access **cleaned_data** until  **is_valid** is called on the form.
-* Impossible to call ```cleaned_data``` dictionary unless you first call the ```is_valid()``` method.
-```
-form.cleaned_data['name'] to access **name** value.
-```
+* Django Form Processing: Field Access
+    * Accessing form values: ```request.POST```: unvalidated data;  and ```cleaned_data```: validated data
+    * Data in ```request.POST``` are treated as srings, so pass them through ```cleaned_data```. (Can't access **cleaned_data** until **is_valid** is called on the form.
+    * Impossible to call ```cleaned_data``` dictionary unless you first call the ```is_valid()``` method.
+	```
+	form.cleaned_data['name'] to access **name** value.
+	```
 ## Django Form Processing: Validation: is_valid(), validators, clean_<field>() and clean()
 * form is_valid() method for form processing
    * Calling ```is_valid()``` also creates the ```cleaned_data``` dictionary on the form instance to hold the form field values that passed validation rules.
@@ -153,7 +153,7 @@ form.cleaned_data['name'] to access **name** value.
       		email = forms.EmailField(label='Your email')
       		comment = forms.CharField(widget=forms.Textarea,validators=[validate_comment_word_count])
  	```
-	* Form field validation with clean_<field>() methods
+	* Form field validation with ```clean_<field>()``` methods
 	
          ```
         from django import forms
@@ -183,7 +183,7 @@ form.cleaned_data['name'] to access **name** value.
                 # Always return value 
                 return value
         ```
-	* Form field validation with clean() method
+	* Form field validation with ```clean()``` method
  
  ```
  from django import forms
