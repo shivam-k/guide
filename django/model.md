@@ -1,11 +1,27 @@
 
-Fields:
--------
-Only required and v.imp
+* Django model class named ```Store```, by default Django performs database CRUD (Create, Read, Update and Delete) operations on a database table called ```<app_name>_store```, where each of the model's ```Store``` instances represent database rows and a model's fields (e.g. ```name```, ```address```, ```city```, ```state```) map to database table columns.
 
-Fields options: 
+Django Model data types:
 --------------
-null, blank, choices, deault, help_text, primary_key, unique
+* It's important to understand Django model data types operate on two layers: at the database layer and the Django/Python layer.
+* If you change type of Django model field (e.g. changing an integer field to a text field) it requires generating a new migration in order for the database table to also reflect any new rule.
+* Go through list of datatypes
+
+#### Limiting values: max_length, min_value, max_value, max_digits and decimal_places
+* ```max_length```, ```max_value```, ```min_value```
+* **Fields options:** null, blank, choices, deault, help_text, primary_key, unique
+* Empty, null & not null values: blank and null
+* Predetermined values: default, auto_now, auto_now_add and choices
+```
+def default_city():
+    return "San Diego"
+
+class Store(models.Model):
+    name = models.CharField(max_length=30)    
+    address = models.CharField(max_length=30)
+    city = models.CharField(max_length=30,default=default_city)
+    state = models.CharField(max_length=2,default='CA')
+```
 
 Relationships: 
 --------------
