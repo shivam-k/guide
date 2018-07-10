@@ -93,13 +93,12 @@ def contact(request):
 * Django Form Processing: Field Access
     * Accessing form values: ```request.POST```: unvalidated data;  and ```cleaned_data```: validated data
     * Data in ```request.POST``` are treated as srings, so pass them through ```cleaned_data```. (Can't access **cleaned_data** until **is_valid** is called on the form.
-    * Impossible to call ```cleaned_data``` dictionary unless you first call the ```is_valid()``` method.
 	```
 	form.cleaned_data['name'] to access **name** value.
 	```
 ## Django Form Processing: Validation: is_valid(), validators, clean_<field>() and clean()
 * form is_valid() method for form processing
-   * Calling ```is_valid()``` also creates the ```cleaned_data``` dictionary on the form instance to hold the form field values that passed validation rules.
+   * Calling ```is_valid()``` creates the ```cleaned_data``` dictionary on the form instance to hold the form field values that passed validation rules.
    * Calling ```is_valid()``` also creates the ```errors``` dictionary on the form instance to hold the form errors for each of the fields that didn't pass the validation rules.
 	
  ```
@@ -254,3 +253,7 @@ class ContactForm(forms.Form):
 ```
 
 ## Output form field errors: form.<field_name>.errors, form.errors, form.non_field_errors
+
+## Django custom form fields and widgets
+
+## Django formsets
