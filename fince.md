@@ -1,4 +1,4 @@
-* Overcoming the inflation
+* Overcoming the inflation (Protecting the purchasing power of money)
 * ```PPF```, ```Stock Market```, ```Mutual Funds```, ```Private Equity Funds```, ```Bank & Post Office Deposits``` **(POMIS)**
 
 ### Stocks
