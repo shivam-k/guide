@@ -1,19 +1,102 @@
 {
   "rpwd" : {
     "1" : {
-      "about" : "Disabilty one",
-      "1" : "11",
-      "2" : "12"
-    },
-    "3" : {
-      "about" : "Disabilty 3",
-      "1" : "31",
-      "2" : "32"
+      "about" : "PRELIMINARY",
+      "1" : "This Act may be called the Rights of Persons with Disabilities Act, 2016.",
+      "2" : "It shall come into force on such date as the Central Government may, by notification in the Official Gazette, appoint."
     },
     "2" : {
-      "about" : "Disabilty two",
-      "1" : "21",
-      "2" : "22"
+      "about" : "Concepts and definitions",
+      "1" : "In this Act, unless the context otherwise requires— (1) 'Appellate Authority' means an authority notified under sub-section (3) of section 14 or sub-section (1) of section 53 or designated under sub-section (1) of section 59, as the case may be;",
+      "2" : {
+        "1" : "'Appropriate Government' means— (a) in relation to the Central Government or any establishment wholly or substantially financed by that Government, or a Cantonment Board constituted under the Cantonments Act, 2006, the Central Government; 41 of 2006.",
+        "2" : "(b) in relation to a State Government or any establishment, wholly or substantially financed by that Government, or any local authority, other than a Cantonment Board, the State Government."
+      }, 
+      "3" : "'barrier' means any factor including communicational, cultural, economic, environmental, institutional, political, social, attitudinal or structural factors which hampers the full and effective participation of persons with disabilities in society;", 
+      "4" : "'care-giver' means any person including parents and other family Members who with or without payment provides care, support or assistance to a person with disability;", 
+      "5" : "'certifying authority' means an authority designated under sub-section (1) of section 57;",
+      "6" : "'communication' includes means and formats of communication, languages, display of text, Braille, tactile communication, signs, large print, accessible multimedia, written, audio, video, visual displays, sign language, plain-language, human-reader, augmentative and alternative modes and accessible information and communication technology;",
+      "7" : "'competent authority' means an authority appointed under section 49;",
+      "8" : "'discrimination' in relation to disability, means any distinction, exclusion, restriction on the basis of disability which is the purpose or effect of impairing or nullifying the recognition, enjoyment or exercise on an equal basis with others of all human rights and fundamental freedoms in the political, economic, social, cultural, civil or any other field and includes all forms of discrimination and denial of reasonable accommodation;",
+      "9" : "'establishment' includes a Government establishment and private establishment;",
+      "10" : "'Fund' means the National Fund constituted under section 86;",
+      "11" : "'Government establishment' means a corporation established by or under a Central Act or State Act or an authority or a body owned or controlled or aided by the Government or a local authority or a Government company as defined in section 2 of the Companies Act, 2013 and includes a Department of the Government;",
+      "12" : "“high support” means an intensive support, physical, psychological and otherwise, which may be required by a person with benchmark disability for daily activities, to take independent and informed decision to access facilities and participating in all areas of life including education, employment, family and community life and treatment and therapy;",
+      "13" : "“inclusive education” means a system of education wherein students with and without disability learn together and the system of teaching and learning is suitably adapted to meet the learning needs of different types of students with disabilities;",
+      "14" : "“information and communication technology” includes all services and innovations relating to information and communication, including telecom services, web based services, electronic and print services, digital and virtual services;",
+      "15" : "“institution” means an institution for the reception, care, protection, education, training, rehabilitation and any other activities for persons with disabilities;",
+      "16" : "“local authority” means a Municipality or a Panchayat, as defined in clause (e) and clause (f) of article 243P of the Constitution; a Cantonment Board constituted under the Cantonments Act, 2006; and any other authority established under an Act of Parliament or a State Legislature to administer the civic affairs;",
+      "17" : "“notification” means a notification published in the Official Gazette and the expression “notify” or “notified” shall be construed accordingly;",
+      "18" : "“person with benchmark disability” means a person with not less than forty per cent. of a specified disability where specified disability has not been defined in measurable terms and includes a person with disability where specified disability has been defined in measurable terms, as certified by the certifying authority;",
+      "19" : "“person with disability” means a person with long term physical, mental, intellectual or sensory impairment which, in interaction with barriers, hinders his full and effective participation in society equally with others;",
+      "20" : "“person with disability” means a person with long term physical, mental, intellectual or sensory impairment which, in interaction with barriers, hinders his full and effective participation in society equally with others;",
+      "21" : "“person with disability having high support needs” means a person with benchmark disability certified under clause (a) of sub-section (2) of section 58 who needs high support;",
+      "22" : "“prescribed” means prescribed by rules made under this Act;",
+      "23" : "“private establishment” means a company, firm, cooperative or other society, associations, trust, agency, institution, organisation, union, factory or such other establishment as the appropriate Government may, by notification, specify;",
+      "24" : "“public building” means a Government or private building, used or accessed by the public at large, including a building used for educational or vocational purposes, workplace, commercial activities, public utilities, religious, cultural, leisure or recreational activities, medical or health services, law enforcement agencies, reformatories or judicial foras, railway stations or platforms, roadways bus stands or terminus, airports or waterways;",
+      "25" : "“public facilities and services” includes all forms of delivery of services to the public at large, including housing, educational and vocational trainings, employment Equality and nondiscrimination.  and career advancement, shopping or marketing, religious, cultural, leisure or recreational, medical, health and rehabilitation, banking, finance and insurance, communication, postal and information, access to justice, public utilities, transportation;",
+      "26" : "“reasonable accommodation” means necessary and appropriate modification and adjustments, without imposing a disproportionate or undue burden in a particular case, to ensure to persons with disabilities the enjoyment or exercise of rights equally with others;",
+      "27" : "“registered organisation” means an association of persons with disabilities or a disabled person organisation, association of parents of persons with disabilities, association of persons with disabilities and family members, or a voluntary or non-governmental or charitable organisation or trust, society, or non-profit company working for the welfare of the persons with disabilities, duly registered under an Act of Parliament or a State Legislature;",
+      "28" : "“rehabilitation” refers to a process aimed at enabling persons with disabilities  to attain and maintain optimal, physical, sensory, intellectual, psychological  environmental or social function levels;",
+      "29" : {
+        "1" : "“Special Employment Exchange” means any office or place established and maintained by the Government for the collection and furnishing of information, either by keeping of registers or otherwise, regarding— (a) persons who seek to engage employees from amongst the persons with disabilities;",
+        "2" : "(b) persons with benchmark disability who seek employment;",
+        "3" : "(c) vacancies to which persons with benchmark disabilities seeking employment may be appointed;"
+      },
+      "30" : "“specified disability” means the disabilities as specified in the Schedule;",
+      "31" : "“transportation systems” includes road transport, rail transport, air transport,  water transport, para transit systems for the last mile connectivity, road and street  infrastructure, etc.;",
+      "32" : "“universal design” means the design of products, environments, programmes and services to be usable by all people to the greatest extent possible, without the need for adaptation or specialised design and shall apply to assistive devices including advanced technologies for particular group of persons with disabilities."
+    },
+    "3" : {
+      "about" : "Equality and non-discrimination",
+      "1" : "The appropriate Government shall ensure that the persons with disabilities enjoy the right to equality, life with dignity and respect for his or her integrity equally with others.",
+      "2" : "The appropriate Government shall take steps to utilise the capacity of persons with disabilities by providing appropriate environment.",
+      "3" : "No person with disability shall be discriminated on the ground of disability, unless it is shown that the impugned act or omission is a proportionate means of achieving a legitimate aim.",
+      "4" : "No person shall be deprived of his or her personal liberty only on the ground of disability.",
+      "5" : "The appropriate Government shall take necessary steps to ensure reasonable accommodation for persons with disabilities. Equality and nondiscrimination."
+    },
+    "4" : {
+      "about" : "Women and child with disabilities",
+      "1" : "(1) The appropriate Government and the local authorities shall take measures to ensure that the women and children with disabilities enjoy their rights equally with others.",
+      "2" : "(2) The appropriate Government and local authorities shall ensure that all children with disabilities shall have right on an equal basis to freely express their views on all matters affecting them and provide them appropriate support keeping in view their age and disability."
+    },
+    "5" : {
+      "about" : "Community life",
+      "1" : "(1) The persons with disabilities shall have the right to live in the community.",
+      "2" : {
+        "1" : "The appropriate Government shall endeavour that the persons with disabilities are,—(a) not obliged to live in any particular living arrangement; and",
+        "2" : "(b) given access to a range of in-house, residential and other community support services, including personal assistance necessary to support living with due regard to age and gender."
+      }
+    },
+    "6" : {
+      "about" : "Protection from cruelty and inhuman treatment",
+      "1" : "(1) The appropriate Government shall take measures to protect persons with  disabilities from being subjected to torture, cruel, inhuman or degrading treatment.",
+      "2" : {
+        "1" : "No person with disability shall be a subject of any research without,—(a) his or her free and informed consent obtained through accessible modes, means and formats of communication; and ",
+        "2" : "(b) prior permission of a Committee for Research on Disability constituted in the prescribed manner for the purpose by the appropriate Government in which not less than half of the Members shall themselves be either persons with disabilities or Members of the registered organisation as defined under clause (z) of section 2."
+      }
+    },
+    "7" : {
+      "about" : "Protection from abuse, voilence and exploitation",
+      "1" : {
+        "1" : "The appropriate Government shall take measures to protect persons with disabilities from all forms of abuse, violence and exploitation and to prevent the same, shall— (a) take cognizance of incidents of abuse, violence and exploitation and provide legal remedies available against such incidents;",
+        "2" : "(b) take steps for avoiding such incidents and prescribe the procedure for its reporting;",
+        "3" : "(c) take steps to rescue, protect and rehabilitate victims of such incidents; and",
+        "4" : "(d) create awareness and make available information among the public."
+      },
+      "2" : "Any person or registered organisation who or which has reason to believe that an act of abuse, violence or exploitation has been, or is being, or is likely to be committed against any person with disability, may give information about it to the Executive Magistrate within the local limits of whose jurisdiction such incidents occur.",
+      "3" : {
+        "1" : "The Executive Magistrate on receipt of such information, shall take immediate steps to stop or prevent its occurrence, as the case may be, or pass such order as he deems fit for the protection of such person with disability including an order— (a) to rescue the victim of such act, authorising the police or any organisation working for persons with disabilities to provide for the safe custody or rehabilitation of such person, or both, as the case may be;",
+        "2" : "(b) for providing protective custody to the person with disability, if such person so desires;",
+        "3" : "(c) to provide maintenance to such person with disability."
+      },
+      "4" : {
+        "1" : "Any police officer who receives a complaint or otherwise comes to know of abuse, violence or exploitation towards any person with disability shall inform the aggrieved person of-  (a) his or her right to apply for protection under sub-section (2) and the particulars of the Executive Magistrate having jurisdiction to provide assistance;",
+        "2" : "(b) the particulars of the nearest organisation or institution working for the rehabilitation of persons with disabilities;",
+        "3" : "(c) the right to free legal aid; and",
+        "4" : "(d) the right to file a complaint under the provisions of this Act or any other law dealing with such offence: Provided that nothing in this section shall be construed in any manner as to relieve the police officer from his duty to proceed in accordance with law upon receipt of information as to the commission of a cognizable offence."
+      },
+      "5" : "If the Executive Magistrate finds that the alleged act or behaviour constitutes an offence under the Indian Penal Code, or under any other law for the time being in force, he may forward the complaint to that effect to the Judicial or Metropolitan Magistrate, as the case may be, having jurisdiction in the matter."
     }
   }
 }
