@@ -57,12 +57,12 @@
     },
     "4" : {
       "about" : "Women and child with disabilities",
-      "1" : "(1) The appropriate Government and the local authorities shall take measures to ensure that the women and children with disabilities enjoy their rights equally with others.",
-      "2" : "(2) The appropriate Government and local authorities shall ensure that all children with disabilities shall have right on an equal basis to freely express their views on all matters affecting them and provide them appropriate support keeping in view their age and disability."
+      "1" : "The appropriate Government and the local authorities shall take measures to ensure that the women and children with disabilities enjoy their rights equally with others.",
+      "2" : "The appropriate Government and local authorities shall ensure that all children with disabilities shall have right on an equal basis to freely express their views on all matters affecting them and provide them appropriate support keeping in view their age and disability."
     },
     "5" : {
       "about" : "Community life",
-      "1" : "(1) The persons with disabilities shall have the right to live in the community.",
+      "1" : "The persons with disabilities shall have the right to live in the community.",
       "2" : {
         "1" : "The appropriate Government shall endeavour that the persons with disabilities are,—(a) not obliged to live in any particular living arrangement; and",
         "2" : "(b) given access to a range of in-house, residential and other community support services, including personal assistance necessary to support living with due regard to age and gender."
@@ -70,7 +70,7 @@
     },
     "6" : {
       "about" : "Protection from cruelty and inhuman treatment",
-      "1" : "(1) The appropriate Government shall take measures to protect persons with  disabilities from being subjected to torture, cruel, inhuman or degrading treatment.",
+      "1" : "The appropriate Government shall take measures to protect persons with  disabilities from being subjected to torture, cruel, inhuman or degrading treatment.",
       "2" : {
         "1" : "No person with disability shall be a subject of any research without,—(a) his or her free and informed consent obtained through accessible modes, means and formats of communication; and ",
         "2" : "(b) prior permission of a Committee for Research on Disability constituted in the prescribed manner for the purpose by the appropriate Government in which not less than half of the Members shall themselves be either persons with disabilities or Members of the registered organisation as defined under clause (z) of section 2."
@@ -97,6 +97,177 @@
         "4" : "(d) the right to file a complaint under the provisions of this Act or any other law dealing with such offence: Provided that nothing in this section shall be construed in any manner as to relieve the police officer from his duty to proceed in accordance with law upon receipt of information as to the commission of a cognizable offence."
       },
       "5" : "If the Executive Magistrate finds that the alleged act or behaviour constitutes an offence under the Indian Penal Code, or under any other law for the time being in force, he may forward the complaint to that effect to the Judicial or Metropolitan Magistrate, as the case may be, having jurisdiction in the matter."
+    },
+    "8" : {
+      "about" : "Protection and safety",
+      "1" : "The persons with disabilities shall have equal protection and safety in situations of risk, armed conflict, humanitarian emergencies and natural disasters.",
+      "2" : "The National Disaster Management Authority and the State Disaster Management Authority shall take appropriate measures to ensure inclusion of persons with disabilities in its disaster management activities as defined under clause (e) of section 2 of the Disaster Management Act, 2005 for the safety and protection of persons with disabilities.",
+      "3" : "The District Disaster Management Authority constituted under section 25 of the Disaster Management Act, 2005 shall maintain record of details of persons with disabilities in the district and take suitable measures to inform such persons of any situations of risk so as to enhance disaster preparedness.",
+      "4" : "The authorities engaged in reconstruction activities subsequent to any situation of risk, armed conflict or natural disasters shall undertake such activities, in consultation with the concerned State Commissioner, in accordance with the accessibility requirements of persons with disabilities."
+    },
+    "9" : {
+      "about" : "Home and family",
+      "1" : "No child with disability shall be separated from his or her parents on the ground of disability except on an order of competent court, if required, in the best interest of the child.",
+      "2" : "Where the parents are unable to take care of a child with disability, the competent court shall place such child with his or her near relations, and failing that within the community in a family setting or in exceptional cases in shelter home run by the appropriate Government or non-governmental organisation, as may be required."
+    },
+    "10" : {
+      "about" : "Reproductive rights",
+      "1" : "The appropriate Government shall ensure that persons with disabilities have access to appropriate information regarding reproductive and family planning.",
+      "2" : "No person with disability shall be subject to any medical procedure which leads to infertility without his or her free and informed consent."
+    },
+    "11" : {
+      "about" : "Accessibility in voting",
+      "1" : "The Election Commission of India and the State Election Commissions shall ensure that all polling stations are accessible to persons with disabilities and all materials related to the electoral process are easily understandable by and accessible to them."
+    },
+    "12" : {
+      "about" : "Accessibility in voting",
+      "1" : "The appropriate Government shall ensure that persons with disabilities are able to exercise the right to access any court, tribunal, authority, commission or any other body having judicial or quasi-judicial or investigative powers without discrimination on the basis of disability.",
+      "2" : "The appropriate Government shall take steps to put in place suitable support measures for persons with disabilities specially those living outside family and those disabled requiring high support for exercising legal rights.",
+      "3" : "The National Legal Services Authority and the State Legal Services Authorities constituted under the Legal Services Authorities Act, 1987 shall make provisions including reasonable accommodation to ensure that persons with disabilities have access to any scheme, programme, facility or service offered by them equally with others.",
+      "4" : {
+        "1" : "The appropriate Government shall take steps to— (a) ensure that all their public documents are in accessible formats;",
+        "2" : "(b) ensure that the filing departments, registry or any other office of records are supplied with necessary equipment to enable filing, storing and referring to the documents and evidence in accessible formats; and",
+        "3" : "(c) make available all necessary facilities and equipment to facilitate recording of testimonies, arguments or opinion given by persons with disabilities in their preferred language and means of communication."
+      }
+    },
+    "13" : {
+      "about" : "Legal capacity",
+      "1" : "The appropriate Government shall ensure that the persons with disabilities have right, equally with others, to own or inherit property, movable or immovable, control their financial affairs and have access to bank loans, mortgages and other forms of financial credit.",
+      "2" : "The appropriate Government shall ensure that the persons with disabilities enjoy legal capacity on an equal basis with others in all aspects of life and have the right to equal recognition everywhere as any other person before the law.",
+      "3" : "When a conflict of interest arises between a person providing support and a person with disability in a particular financial, property or other economic transaction, then such supporting person shall abstain from providing support to the person with disability in that transaction: Provided that there shall not be a presumption of conflict of interest just on the basis that the supporting person is related to the person with disability by blood, affinity or adoption.",
+      "4" : "A person with disability may alter, modify or dismantle any support arrangement and seek the support of another: Provided that such alteration, modification or dismantling shall be prospective in nature and shall not nullify any third party transaction entered into by the person with disability with the aforesaid support arrangement.",
+      "5" : "Any person providing support to the person with disability shall not exercise undue influence and shall respect his or her autonomy, dignity and privacy."
+    },
+    "14" : {
+      "about" : "Provision for gaudianship",
+      "1" : "Notwithstanding anything contained in any other law for the time being in force, on and from the date of commencement of this Act, where a district court or any designated authority, as notified by the State Government, finds that a person with disability, who had been provided adequate and appropriate support but is unable to take legally binding decisions, may be provided further support of a limited guardian to take legally binding decisions on his behalf in consultation with such person, in such manner, as may be prescribed by the State Government: Provided that the District Court or the designated authority, as the case may be, may grant total support to the person with disability requiring such support or where the limited guardianship is to be granted repeatedly, in which case, the decision regarding the support to be provided shall be reviewed by the Court or the designated authority, as the case may be, to determine the nature and manner of support to be provided. Explanation.—For the purposes of this sub-section, “limited guardianship” means a system of joint decision which operates on mutual understanding and trust between the guardian and the person with disability, which shall be limited to a specific period and for specific decision and situation and shall operate in accordance to the will of the person with disability.",
+      "2" : "On and from the date of commencement of this Act, every guardian appointed under any provision of any other law for the time being in force, for a person with disability shall be deemed to function as a limited guardian. ",
+      "3" : "Any person with disability aggrieved by the decision of the designated authority appointing a legal guardian may prefer an appeal to such appellate authority, as may be notified by the State Government for the purpose."
+    },
+    "15" : {
+      "about" : "Designation of authorities to support persons with disabilities in exercise of their legal capacity",
+      "1" : "The appropriate Government shall designate one or more authorities to mobilise the community and create social awareness to support persons with disabilities in exercise of their legal capacity.",
+      "2" : "The authority designated under sub-section (1) shall take measures for setting up suitable support arrangements to exercise legal capacity by persons with disabilities living in institutions and those with high support needs and any other measures as may be required."
+    },
+    "16" : {
+      "about" : "Duties of educational institutions",
+      "1" : "The appropriate Government and the local authorities shall endeavour that all educational institutions funded or recognised by them provide inclusive education to the children with disabilities and towards that end shall- (i) admit them without discrimination and provide education and opportunities for sports and recreation activities equally with others; (ii) make building, campus and various facilities accessible; (iii) provide reasonable accommodation according to the individual’s requirements; (iv) provide necessary support individualised or otherwise in environments that maximise academic and social development consistent with the goal of full inclusion; (v) ensure that the education to persons who are blind or deaf or both is imparted in the most appropriate languages and modes and means of communication; (vi) detect specific learning disabilities in children at the earliest and take suitable pedagogical and other measures to overcome them; (vii) monitor participation, progress in terms of attainment levels and completion of education in respect of every student with disability; (viii) provide transportation facilities to the children with disabilities and also the attendant of the children with disabilities having high support needs."
+    },
+    "17" : {
+      "about" : "Specific measures to promote and facilitate inclusive educations",
+      "1" : "17"
+    },
+    "18" : {
+      "about" : "Adult education",
+      "1" : "The appropriate Government and the local authorities shall take measures to promote, protect and ensure participation of persons with disabilities in adult education and continuing education programmes equally with others."
+    },
+    "19" : {
+      "about" : "Vocational training and self employment",
+      "1" : "The appropriate Government shall formulate schemes and programmes including provision of loans at concessional rates to facilitate and support employment of persons with disabilities especially for their vocational training and self-employment.",
+      "2" : {
+        "1" : "The schemes and programmes referred to in sub-section (1) shall provide for— (a) inclusion of person with disability in all mainstream formal and non-formal vocational and skill training schemes and programmes;",
+        "2" : "(b) to ensure that a person with disability has adequate support and facilities to avail specific training;",
+        "3" : "(c) exclusive skill training programmes for persons with disabilities with active links with the market, for those with developmental, intellectual, multiple disabilities and autism;",
+        "4" : "(d) loans at concessional rates including that of microcredit;",
+        "5" : "(e) marketing the products made by persons with disabilities; and",
+        "6" : "(f ) maintenance of disaggregated data on the progress made in the skill training and self-employment, including persons with disabilities."
+      }
+    },
+    "20" : {
+      "about" : "Non-discrimination in employment",
+      "1" : "No Government establishment shall discriminate against any person with disability in any matter relating to employment: Provided that the appropriate Government may, having regard to the type of work carried on in any establishment, by notification and subject to such conditions, if any, exempt any establishment from the provisions of this section.",
+      "2" : "Every Government establishment shall provide reasonable accommodation and appropriate barrier free and conducive environment to employees with disability.",
+      "3" : "No promotion shall be denied to a person merely on the ground of disability.",
+      "4" : "No Government establishment shall dispense with or reduce in rank, an employee who acquires a disability during his or her service; Provided that, if an employee after acquiring disability is not suitable for the post he was holding, shall be shifted to some other post with the same pay scale and service benefits: Provided further that if it is not possible to adjust the employee against any post, he may be kept on a supernumerary post until a suitable post is available or he attains the age of superannuation, whichever is earlier.",
+      "5" : "The appropriate Government may frame policies for posting and transfer of employees with disabilities."
+    },
+    "21" : {
+      "about" : "Equal opportunity policy",
+      "1" : "Every establishment shall notify equal opportunity policy detailing measures proposed to be taken by it in pursuance of the provisions of this Chapter in the manner as may be prescribed by the Central Government.",
+      "2" : "Every establishment shall register a copy of the said policy with the Chief Commissioner or the State Commissioner, as the case may be."
+    },
+    "22" : {
+      "about" : "Maintainance of records",
+      "1" : "Every establishment shall maintain records of the persons with disabilities in relation to the matter of employment, facilities provided and other necessary information in compliance with the provisions of this Chapter in such form and manner as may be prescribed by the Central Government.",
+      "2" : "Every employment exchange shall maintain records of persons with disabilities seeking employment.",
+      "3" : "The records maintained under sub-section (1) shall be open to inspection at all reasonable hours by such persons as may be authorised in their behalf by the appropriate Government."
+    },
+    "23" : {
+      "about" : "Appointment of grievance redressal officeer",
+      "1" : "Every Government establishment shall appoint a Grievance Redressal Officer for the purpose of section 19 and shall inform the Chief Commissioner or the State Commissioner, as the case may be, about the appointment of such officer.",
+      "2" : "Any person aggrieved with the non-compliance of the provisions of section 20, may file a complaint with the Grievance Redressal Officer, who shall investigate it and shall take up the matter with the establishment for corrective action.",
+      "3" : "The Grievance Redressal Officer shall maintain a register of complaints in the manner as may be prescribed by the Central Government, and every complaint shall be inquired within two weeks of its registration.",
+      "4" : "If the aggrieved person is not satisfied with the action taken on his or her complaint, he or she may approach the District-Level Committee on disability."
+    },
+    "24" : {
+      "about" : "Social security",
+      "1" : "The appropriate Government shall within the limit of its economic capacity and development formulate necessary schemes and programmes to safeguard and promote the right of persons with disabilities for adequate standard of living to enable them to live independently or in the community: Provided that the quantum of assistance to the persons with disabilities under such schemes and programmes shall be at least twenty-five per cent. higher than the similarschemes applicable to others.",
+      "2" : "The appropriate Government while devising these schemes and programmes shall give due consideration to the diversity of disability, gender, age, and socio-economic status.",
+      "3" : {
+        "1" : "The schemes under sub-section (1) shall provide for,— (a) community centres with good living conditions in terms of safety, sanitation, health care and counselling;",
+        "2" : "(b) facilities for persons including children with disabilities who have no family or have been abandoned, or are without shelter or livelihood;",
+        "3" : "(c) support during natural or man-made disasters and in areas of conflict;",
+        "4" : "(d) support to women with disability for livelihood and for upbringing of their children;",
+        "5" : "(e) access to safe drinking water and appropriate and accessible sanitation facilities especially in urban slums and rural areas;",
+        "6" : "(f) provisions of aids and appliances, medicine and diagnostic services and corrective surgery free of cost to persons with disabilities with such income ceiling as may be notified;",
+        "7" : "(g) disability pension to persons with disabilities subject to such income ceiling as may be notified;",
+        "8" : "(h) unemployment allowance to persons with disabilities registered with Special Employment Exchange for more than two years and who could not be placed in any gainful occupation;",
+        "9" : "(i) care-giver allowance to persons with disabilities with high support needs;",
+        "10" : "(j) comprehensive insurance scheme for persons with disability, not covered under the Employees State Insurance Schemes, or any other statutory or Government sponsored insurance schemes; (k) any other matter which the appropriate Government may think fit.",
+        "11" : "(k) any other matter which the appropriate Government may think fit."
+      }
+    },
+    "25" : {
+      "about" : "Healthcare",
+      "1" : {
+        "1" : "The appropriate Government and the local authorities shall take necessary measures for the persons with disabilities to provide,— (a) free healthcare in the vicinity specially in rural area subject to such family income as may be notified;",
+        "2" : "(b) barrier-free access in all parts of Government and private hospitals and other healthcare institutions and centres;",
+        "3" : "(c) priority in attendance and treatment."
+      },
+      "2" : {
+        "1" : "The appropriate Government and the local authorities shall take measures and make schemes or programmes to promote healthcare and prevent the occurrence of disabilities and for the said purpose shall— (a) undertake or cause to be undertaken surveys, investigations and research concerning the cause of occurrence of disabilities;",
+        "2" : "(b) promote various methods for preventing disabilities;",
+        "3" : "(c) screen all the children at least once in a year for the purpose of identifying “at-risk” cases;",
+        "4" : "(d) provide facilities for training to the staff at the primary health centres;",
+        "5" : "(e) sponsor or cause to be sponsored awareness campaigns and disseminate or cause to be disseminated information for general hygiene, health and sanitation;",
+        "6" : "(f) take measures for pre-natal, perinatal and post-natal care of mother and child;",
+        "7" : "(g) educate the public through the pre-schools, schools, primary health centres, village level workers and anganwadi workers;",
+        "8" : "(h) create awareness amongst the masses through television, radio and other mass media on the causes of disabilities and the preventive measures to be adopted;",
+        "9" : "(i) healthcare during the time of natural disasters and other situations of risk;",
+        "10" : "(j) essential medical facilities for life saving emergency treatment and procedures; and",
+        "11" : "(k) sexual and reproductive healthcare especially for women with disability."
+      }
+    },
+    "26" : {
+      "about" : "Insurance schemes",
+      "1" : "The appropriate Government shall, by notification, make insurance schemes for their employees with disabilities."
+    },
+    "27" : {
+      "about" : "Rehabilitation",
+      "1" : "The appropriate Government and the local authorities shall within their economic capacity and development, undertake or cause to be undertaken services and programmes of  rehabilitation, particularly in the areas of health, education and employment for all persons with disabilities.",
+      "2" : "For the purposes of sub-section (1), the appropriate Government and the local authorities may grant financial assistance to non-Governmental Organisations.",
+      "3" : "The appropriate Government and the local authorities, while formulating rehabilitation policies shall consult the non-Governmental Organisations working for the cause of persons with disabilities."
+    },
+    "28" : {
+      "about" : "Research and development",
+      "1" : "The appropriate Government shall initiate or cause to be initiated research and development through individuals and institutions on issues which shall enhance habilitation and rehabilitation and on such other issues which are necessary for the empowerment of persons with disabilities."
+    },
+    "29" : {
+      "about" : "Culture and recreation",
+      "1" : "29"
+    },
+    "30" : {
+      "about" : "Sporting Activities",
+      "1" : "The appropriate Government shall take measures to ensure effective participation in sporting activities of the persons with disabilities.",
+      "2" : "The sports authorities shall accord due recognition to the right of persons with disabilities to participate in sports and shall make due provisions for the inclusion of persons with disabilities in their schemes and programmes for the promotion and development of sporting talents.",
+      "3" : {
+        "1" : "Without prejudice to the provisions contained in sub-sections (1) and (2), the appropriate Government and the sports authorities shall take measures to,— (a) restructure courses and programmes to ensure access, inclusion and participation of persons with disabilities in all sporting activities;",
+        "2" : "(b) redesign and support infrastructure facilities of all sporting activities for persons with disabilities;",
+        "3" : "(c) develop technology to enhance potential, talent, capacity and ability in sporting activities of all persons with disabilities;",
+        "4" : "(d) provide multi-sensory essentials and features in all sporting activities to ensure effective participation of all persons with disabilities;",
+        "5" : "(e) allocate funds for development of state of art sport facilities for training of persons with disabilities;",
+        "6" : "(f ) promote and organise disability specific sporting events for persons with disabilities and also facilitate awards to the winners and other participants of such sporting events."
+      }
     }
   }
 }
