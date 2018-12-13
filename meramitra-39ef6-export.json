@@ -7,7 +7,7 @@
     },
     "2" : {
       "about" : "Concepts and definitions",
-      "1" : "In this Act, unless the context otherwise requires— (1) 'Appellate Authority' means an authority notified under sub-section (3) of section 14 or sub-section (1) of section 53 or designated under sub-section (1) of section 59, as the case may be;",
+      "1" : "In this Act, unless the context otherwise requires— 'Appellate Authority' means an authority notified under sub-section (3) of section 14 or sub-section (1) of section 53 or designated under sub-section (1) of section 59, as the case may be;",
       "2" : {
         "1" : "'Appropriate Government' means— (a) in relation to the Central Government or any establishment wholly or substantially financed by that Government, or a Cantonment Board constituted under the Cantonments Act, 2006, the Central Government; 41 of 2006.",
         "2" : "(b) in relation to a State Government or any establishment, wholly or substantially financed by that Government, or any local authority, other than a Cantonment Board, the State Government."
@@ -268,6 +268,127 @@
         "5" : "(e) allocate funds for development of state of art sport facilities for training of persons with disabilities;",
         "6" : "(f ) promote and organise disability specific sporting events for persons with disabilities and also facilitate awards to the winners and other participants of such sporting events."
       }
+    },
+    "31" : {
+      "about" : "Free education children with benchmark disabilities",
+      "1" : "Notwithstanding anything contained in the Rights of Children to Free and Compulsory Education Act, 2009, every child with benchmark disability between the age of six to eighteen years shall have the right to free education in a neighbourhood school, or in a special school, of his choice.",
+      "2" : "The appropriate Government and local authorities shall ensure that every child with benchmark disability has access to free education in an appropriate environment till he attains the age of eighteen years."
+    },
+    "32" : {
+      "about" : "Reservation in higher educational institutes",
+      "1" : "All Government institutions of higher education and other higher education institutions receiving aid from the Government shall reserve not less than five per cent. Seats for persons with benchmark disabilities.",
+      "2" : "The persons with benchmark disabilities shall be given an upper age relaxation of five years for admission in institutions of higher education."
+    },
+    "33" : {
+      "about" : "Identification of posts for reservations",
+      "1" : "33"
+    },
+    "34" : {
+      "about" : "Reservations",
+      "1" : {
+        "1" : "Every appropriate Government shall appoint in every Government establishment, not less than four per cent. of the total number of vacancies in the cadre strength in each group of posts meant to be filled with persons with benchmark disabilities of which, one per cent. each shall be reserved for persons with benchmark disabilities under clauses (a), (b) and (c) and one per cent. for persons with benchmark disabilities under clauses (d) and (e), namely:— (a) blindness and low vision;",
+        "2" : "(b) deaf and hard of hearing;",
+        "3" : "(c) locomotor disability including cerebral palsy, leprosy cured, dwarfism, acid attack victims and muscular dystrophy;",
+        "4" : "(d) autism, intellectual disability, specific learning disability and mental illness;",
+        "5" :  "(e) multiple disabilities from amongst persons under clauses (a) to (d) including deaf-blindness in the posts identified for each disabilities: Provided that the reservation in promotion shall be in accordance with such instructions as are issued by the appropriate Government from time to time: Provided further that the appropriate Government, in consultation with the Chief Commissioner or the State Commissioner, as the case may be, may, having regard to the type of work carried out in any Government establishment, by notification and subject to such conditions, if any, as may be specified in such notifications exempt any Government establishment from the provisions of this section."
+      },
+      "2" : "Where in any recruitment year any vacancy cannot be filled up due to nonavailability of a suitable person with benchmark disability or for any other sufficient reasons, such vacancy shall be carried forward in the succeeding recruitment year and if in the succeeding recruitment year also suitable person with benchmark disability is not available, it may first be filled by interchange among the five categories and only when there is no person with disability available for the post in that year, the employer shall fill up the vacancy by appointment of a person, other than a person with disability; Provided that if the nature of vacancies in an establishment is such that a given category of person cannot be employed, the vacancies may be interchanged among the five categories with the prior approval of the appropriate Government.",
+      "3" : "The appropriate Government may, by notification, provide for such relaxation of upper age limit for employment of persons with benchmark disability, as it thinks fit."
+    },
+    "35" : {
+      "about" : "Incentives to employers in private sector",
+      "1" : "The appropriate Government and the local authorities shall, within the limit of their economic capacity and development, provide incentives to employer in private sector to ensure that at least five per cent. of their work force is composed of persons with benchmark disability."
+    },
+    "36" : {
+      "about" : "Special employment exchange",
+      "1" : "The appropriate Government may, by notification, require that from such date, the employer in every establishment shall furnish such information or return as may be prescribed by the Central Government in relation to vacancies appointed for persons with benchmark disability that have occurred or are about to occur in that establishment to such special employment exchange as may be notified by the Central Government and the establishment shall thereupon comply with such requisition."
+    },
+    "37" : {
+      "about" : "Special schemes and employment programmes",
+      "1" : "37"
+    },
+    "38" : {
+      "about" : "Special provisions with disability with high support needs",
+      "1" : "Any person with benchmark disability, who considers himself to be in need of high support, or any person or organisation on his or her behalf, may apply to an authority, to be notified by the appropriate Government, requesting to provide high support.",
+      "2" : "On receipt of an application under sub-section (1), the authority shall refer it to an Assessment Board consisting of such Members as may be prescribed by the Central Government.",
+      "3" : "The Assessment Board shall assess the case referred to it under sub-section (1) in such manner as may be prescribed by the Central Government, and shall send a report to the authority certifying the need of high support and its nature.",
+      "4" : "On receipt of a report under sub-section (3), the authority shall take steps to provide support in accordance with the report and subject to relevant schemes and orders of the appropriate Government in this behalf."
+    },
+    "39" : {
+      "about" : "Awareness campaigns",
+      "1" : "The appropriate Government, in consultation with the Chief Commissioner or the State Commissioner, as the case may be, shall conduct, encourage, support or promote awareness campaigns and sensitisation programmes to ensure that the rights of the persons with disabilities provided under this Act are protected.",
+      "2" : {
+        "1" : "The programmes and campaigns specified under sub-section (1) shall also,— (a) promote values of inclusion, tolerance, empathy and respect for diversity;",
+        "2" : "(b) advance recognition of the skills, merits and abilities of persons with disabilities and of their contributions to the workforce, labour market and professional fee;",
+        "3" : "(c) foster respect for the decisions made by persons with disabilities on all matters related to family life, relationships, bearing and raising children;",
+        "4" : "(d) provide orientation and sensitisation at the school, college, University and professional training level on the human condition of disability and the rights of persons with disabilities;",
+        "5" : "(e) provide orientation and sensitisation on disabling conditions and rights of persons with disabilities to employers, administrators and co-workers;",
+        "6" : "(f) ensure that the rights of persons with disabilities are included in the curriculum in Universities, colleges and schools."
+      }
+    },
+    "40" : {
+      "about" : "Accessibility",
+      "1" : "The Central Government shall, in consultation with the Chief Commissioner, formulate rules for persons with disabilities laying down the standards of accessibility for the physical environment, transportation, information and communications, including appropriate technologies and systems, and other facilities and services provided to the public in urban and rural areas."
+    },
+    "41" : {
+      "about" : "Access to transport",
+      "1" : {
+        "1" : "The appropriate Government shall take suitable measures to provide,— (a) facilities for persons with disabilities at bus stops, railway stations and airports conforming to the accessibility standards relating to parking spaces, toilets, ticketing counters and ticketing machines;",
+        "2" : "(b) access to all modes of transport that conform the design standards, including retrofitting old modes of transport, wherever technically feasible and safe for persons with disabilities, economically viable and without entailing major structural changes in design;",
+        "3" : "(c) accessible roads to address mobility necessary for persons with disabilities."
+      },
+      "2" : {
+        "1" : "(2) The appropriate Government shall develop schemes programmes to promote the personal mobility of persons with disabilities at affordable cost to provide for,— (a) incentives and concessions;",
+        "2" : "(b) retrofitting of vehicles; and",
+        "3" : "(c) personal mobility assistance."
+      }
+    },
+    "42" : {
+      "about" : "Access to Information and Communication Technology",
+      "1" : "42"
+    },
+    "43" : {
+      "about" : "Consumer goods",
+      "1" : "The appropriate Government shall take measures to promote development, production and distribution of universally designed consumer products and accessories for general use for persons with disabilities."
+    },
+    "44" : {
+      "about" : "Mandatory observance of accessibility norms",
+      "1" : "No establishment shall be granted permission to build any structure if the building plan does not adhere to the rules formulated by the Central Government under section 40.",
+      "2" : "No establishment shall be issued a certificate of completion or allowed to take occupation of a building unless it has adhered to the rules formulated by the Central Government."
+    },
+    "45" : {
+      "about" : "Timelimit of making existing infrastructure and premises accessible and action for that purpose",
+      "1" : "All existing public buildings shall be made accessible in accordance with the rules formulated by the Central Government within a period not exceeding five years from the date of notification of such rules: Provided that the Central Government may grant extension of time to the States on a case to case basis for adherence to this provision depending on their state of preparedness and other related parameters.",
+      "2" : "The appropriate Government and the local authorities shall formulate and publish an action plan based on prioritisation, for providing accessibility in all their buildings and spaces providing essential services such as all primary health centres, civil hospitals, schools, railway stations and bus stops."
+    },
+    "46" : {
+      "about" : "Timelimit of making services accessible",
+      "1" : "The service providers whether Government or private shall provide services in accordance with the rules on accessibility formulated by the Central Government under section 40 within a period of two years from the date of notification of such rules: Provided that the Central Government in consultation with the Chief Commissioner may grant extension of time for providing certain category of services in accordance with the said rules."
+    },
+    "47" : {
+      "about" : "Human resource development",
+      "1" : {
+        "1" : "Without prejudice to any function and power of Rehabilitation Council of India constituted under the Rehabilitation Council of India Act, 1992, the appropriate Government shall endeavour to develop human resource for the purposes of this Act and to that end shall,— (a) mandate training on disability rights in all courses for the training of Panchayati Raj Members, legislators, administrators, police officials, judges and lawyers;",
+        "2" : "(b) induct disability as a component for all education courses for schools, colleges and University teachers, doctors, nurses, para-medical personnel, social welfare officers, rural development officers, asha workers, anganwadi workers, engineers, architects, other professionals and community workers;",
+        "3" : "(c) initiate capacity building programmes including training in independent living and community relationships for families, members of community and other stakeholders and care providers on care giving and support;",
+        "4" : "(d) ensure independence training for persons with disabilities to build community relationships on mutual contribution and respect;",
+        "5" : "(e) conduct training programmes for sports teachers with focus on sports, games, adventure activities;",
+        "6" : "(f) any other capacity development measures as may be required."
+      },
+      "2" : "All Universities shall promote teaching and research in disability studies including establishment of study centres for such studies.",
+      "3" : "In order to fulfil the obligation stated in sub-section (1), the appropriate Government shall in every five years undertake a need based analysis and formulate plans for the recruitment, induction, sensitisation, orientation and training of suitable personnel to undertake the various responsibilities under this Act."
+    },
+    "48" : {
+      "about" : "Social audit",
+      "1" : "The appropriate Government shall undertake social audit of all general schemes and programmes involving the persons with disabilities to ensure that the scheme and programmes do not have an adverse impact upon the persons with disabilities and need the requirements and concerns of persons with disabilities."
+    },
+    "49" : {
+      "about" : "Competant authority",
+      "1" : "The State Government shall appoint an authority as it deems fit to be a competent authority for the purposes of this Chapter."
+    },
+    "50" : {
+      "about" : "Registration",
+      "1" : "Save as otherwise provided under this Act, no person shall establish or maintain any institution for persons with disabilities except in accordance with a certificate of registration issued in this behalf by the competent authority: Provided that an institution for care of mentally ill persons, which holds a valid licence under section 8 of the Mental Health Act, 1987 or any other Act for the time being in force, shall not be required to be registered under this Act. Time limit for accessibility"
     }
   }
 }
