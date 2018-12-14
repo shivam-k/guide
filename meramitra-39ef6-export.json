@@ -418,6 +418,203 @@
     "50" : {
       "about" : "Registration",
       "1" : "Save as otherwise provided under this Act, no person shall establish or maintain any institution for persons with disabilities except in accordance with a certificate of registration issued in this behalf by the competent authority: Provided that an institution for care of mentally ill persons, which holds a valid licence under section 8 of the Mental Health Act, 1987 or any other Act for the time being in force, shall not be required to be registered under this Act. Time limit for accessibility"
+    },
+    "51" : {
+      "about" : "Application and grant of certificate of registration",
+      "1" : "Every application for a certificate of registration shall be made to the competent authority in such form and in such manner as may be prescribed by the State Government.",
+      "2" : "On receipt of an application under sub-section (1), the competent authority shall make such enquiries as it may deem fit and on being satisfied that the applicant has complied with the requirements of this Act and the rules made thereunder, it shall grant a certificate of registration to the applicant within a period of ninety days of receipt of application and if not satisfied, the competent authority shall, by order, refuse to grant the certificate applied for: Provided that before making any order refusing to grant a certificate, the competent authority shall give the applicant a reasonable opportunity of being heard and every order of refusal to grant a certificate shall be communicated to the applicant in writing.",
+      "3" : "No certificate of registration shall be granted under sub-section (2) unless the institution with respect to which an application has been made is in a position to provide such facilities and meet such standards as may be prescribed by the State Government.",
+      "4" : {
+        "1" : "The certificate of registration granted under sub-section (2) ,— (a) shall, unless revoked under section 52 remain in force for such period as may be prescribed by the State Government;",
+        "2" : "may be renewed from time to time for a like period; and",
+        "3" : "shall be in such form and shall be subject to such conditions as may be prescribed by the State Government."
+      },
+      "5" : "An application for renewal of a certificate of registration shall be made not less than sixty days before the expiry of the period of validity.",
+      "6" : "A copy of the certificate of registration shall be displayed by the institution in a conspicuous place.",
+      "7" : "Every application made under sub-section (1) or sub-section (5) shall be disposed of by the competent authority within such period as may be prescribed by the State Government."
+    },
+    "52" : {
+      "about" : "Revocation of registration",
+      "1" : {
+        "1" : "The competent authority may, if it has reason to believe that the holder of a certificate of registration granted under sub-section (2) of section 51 has,— (a) made a statement in relation to any application for the issue or renewal of the certificate which is incorrect or false in material particulars; or",
+        "2" : "committed or has caused to be committed any breach of rules or any conditionssubject to which the certificate was granted, it may, after making such inquiry, as it deems fit, by order, revoke the certificate: Provided that no such order shall be made until an opportunity is given to the holder of the certificate to show cause as to why the certificate of registration shall not be revoked."
+      },
+      "2" : {
+        "1" : "Where a certificate of registration in respect of an institution has been revoked under sub-section (1), such institution shall cease to function from the date of such revocation: Provided that where an appeal lies under section 53 against the order of revocation, such institution shall cease to function,— (a) where no appeal has been preferred immediately on the expiry of the period prescribed for the filing of such appeal; or",
+        "2" : "where such appeal has been preferred, but the order of revocation has been upheld, from the date of the order of appeal."
+      },
+      "3" : {
+        "1" : "On the revocation of a certificate of registration in respect of an institution, the competent authority may direct that any person with disability who is an inmate of such institution on the date of such revocation, shall be- (a) restored to the custody of his or her parent, spouse or lawful guardian, as the case may be; or Application and grant of certificate of registration.",
+        "2" : "transferred to any other institution specified by the competent authority."
+      },
+      "4" : "Every institution which holds a certificate of registration which is revoked under this section shall, immediately after such revocation, surrender such certificate to the competent authority."
+    },
+    "53" : {
+      "about" : "Appeal",
+      "1" : "Any person aggrieved by the order of the competent authority refusing to grant a certificate of registration or revoking a certificate of registration may, within such period as may be prescribed by the State Government, prefer an appeal to such appellate authority, as may be notified by the State Government against such refusal or revocation.",
+      "2" : "The order of the appellate authority on such appeal shall be final. "
+    },
+    "54" : {
+      "about" : "Act not to be applied to institutes established or maintained by central or state government",
+      "1" : "Nothing contained in this Chapter shall apply to an institution for persons with disabilities established or maintained by the Central Government or a State Government."
+    },
+    "55" : {
+      "about" : "Assistance to registered institutions",
+      "1" : "The appropriate Government may within the limits of their economic capacity and development, grant financial assistance to registered institutions to provide services and to implement the schemes and programmes in pursuance of the provisions of this Act."
+    },
+    "56" : {
+      "about" : "Guidelines for assessment of specified disabilities",
+      "1" : "The Central Government shall notify guidelines for the purpose of assessing the extent of specified disability in a person."
+    },
+    "57" : {
+      "about" : "Designation of certifying authorities",
+      "1" : "The appropriate Government shall designate persons, having requisite qualifications and experience, as certifying authorities, who shall be competent to issue the certificate of disability.",
+      "2" : "The appropriate Government shall also notify the jurisdiction within which and the terms and conditions subject to which, the certifying authority shall perform its certification functions."
+    },
+    "58" : {
+      "about" : "Procedure for certification",
+      "1" : "Any person with specified disability, may apply, in such manner as may be prescribed by the Central Government, to a certifying authority having jurisdiction, for issuing of a certificate of disability.",
+      "2" : {
+        "1" : "On receipt of an application under sub-section (1), the certifying authority shall assess the disability of the concerned person in accordance with relevant guidelines notified under section 56, and shall, after such assessment, as the case may be,— (a) issue a certificate of disability to such person, in such form as may be prescribed by the Central Government;",
+        "2" : "inform him in writing that he has no specified disability."
+      },
+      "3" : "The certificate of disability issued under this section shall be valid across the country."
+    },
+    "59" : {
+      "about" : "Appeal against a decision of certifying authority ",
+      "1" : "Any person aggrieved with decision of the certifying authority, may appeal against such decision, within such time and in such manner as may be prescribed by the State Government, to such appellate authority as the State Government may designate for the purpose.",
+      "2" : "On receipt of an appeal, the appellate authority shall decide the appeal in such manner as may be prescribed by the State Government. Appeal."
+    },
+    "60" : {
+      "about" : "Constitution of central advisory board on disability",
+      "1" : "The Central Government shall, by notification, constitute a body to be known as the Central Advisory Board on Disability to exercise the powers conferred on, and to perform the functions assigned to it, under this Act.",
+      "2" : {
+        "1" : "The Central Advisory Board shall consist of,— (a) the Minister in charge of Department of Disability Affairs in the Central Government, Chairperson, ex officio;",
+        "2" : "the Minister of State in charge dealing with Department of Disability Affairs in the Ministry in the Central Government, Vice Chairperson, ex officio;",
+        "3" : "three Members of Parliament, of whom two shall be elected by Lok Sabha and one by the Rajya Sabha, Members, ex officio;",
+        "4" : "the Ministers in charge of Disability Affairs of all States and Administrators or Lieutenant Governors of the Union territories, Members, ex officio;",
+        "5" : "Secretaries to the Government of India in charge of the Ministries or Departments of Disability Affairs, Social Justice and Empowerment, School Education and Literacy, and Higher Education, Women and Child Development, Expenditure, Personnel and Training, Administrative Reforms and Public Grievances, Health and Family Welfare, Rural Development, Panchayati Raj, Industrial Policy and Promotion, Urban Development, Housing and Urban Poverty Alleviation, Science and Technology, Communications and Information Technology, Legal Affairs, Public Enterprises, Youth Affairs and Sports, Road Transport and Highways and Civil Aviation, Members, ex officio;",
+        "6" : "Secretary, National Institute of Transforming India (NITI) Aayog, Member, ex officio;",
+        "7" : "Chairperson, Rehabilitation Council of India, Member, ex officio;",
+        "8" : "Chairperson, National Trust for the Welfare of Persons with Autism, Cerebral Palsy, Mental Retardation and Multiple Disabilities, Member, ex officio;",
+        "9" : "Chairman-cum-Managing Director, National Handicapped Finance Development Corporation, Member, ex officio;",
+        "10" : "Chairman-cum-Managing Director, Artificial Limbs Manufacturing Corporation, Member, ex officio;",
+        "11" : "Chairman, Railway Board, Member, ex officio;",
+        "12" : "Director-General, Employment and Training, Ministry of Labour and Employment, Member, ex officio;",
+        "13" : "Director, National Council for Educational Research and Training, Member, ex officio;",
+        "14" : "Chairperson, National Council of Teacher Education, Member, ex officio;",
+        "15" : "Chairperson, University Grants Commission, Member, ex officio;",
+        "16" : "Chairperson, Medical Council of India, Member, ex officio;",
+        "17" : "Directors of the following Institutes:— (i) National Institute for the Visually Handicapped, Dehradun; (ii) National Institute for the Mentally Handicapped, Secundrabad; (iii) Pandit Deen Dayal Upadhyay Institute for the Physically Handicapped, New Delhi; (iv) Ali Yavar Jung National Institute for the Hearing Handicapped(Mumbai); (v) National Institute for the Orthopaedically Handicapped, Kolkata; (vi) National Institute of Rehabilitation Training and Research, Cuttack; (vii) National Institute for Empowerment of Persons with Multiple Disabilities, Chennai; (viii) National Institute for Mental Health and Sciences, Bangalore; (ix) Indian Sign Language Research and Training Centre, New Delhi, Members, ex officio;",
+        "18" : "Members to be nominated by the Central Government,— (i) five Members who are experts in the field of disability and rehabilitation; (ii) ten Members, as far as practicable, being persons with disabilities, to represent non-Governmental Organisations concerned with disabilities or disabled persons organisations: Provided that out of the ten Members nominated, at least, five Members shall be women and at least one person each shall be from the Scheduled Castes and the Scheduled Tribes; (iii) up to three representatives of national level chambers of commerce and industry;",
+        "19" : "Joint Secretary to the Government of India dealing with the subject of disability policy, Member-Secretary, ex officio."
+      }
+    },
+    "62" : {
+      "about" : "Disqualifications",
+      "1" : {
+        "1" : "No person shall be a Member of the Central Advisory Board, who — (a) is, or at any time has been, adjudged insolvent or has suspended payment of his debts or has compounded with his creditors, or",
+        "2" : "is of unsound mind and stands so declared by a competent court, or",
+        "3" : "is, or has been, convicted of an offence which, in the opinion of the Central Government, involves moral turpitude, or",
+        "4" : "is, or at any time has been, convicted of an offence under this Act, or",
+        "5" : "has so abused his position in the opinion of the Central Government as a Member so as to render his continuance in the office is prejudicial interests of the general public."
+      },
+      "2" : "No order of removal shall be made by the Central Government under this section unless the Member concerned has been given a reasonable opportunity of showing cause against the same. Terms and conditions of Service of members. Disqualifications.",
+      "3" : "Notwithstanding anything contained in sub-section (1) or sub-section (5) of section"
+    },
+    "63" : {
+      "about" : "Voacation of seats by members",
+      "1" : "If a Member of the Central Advisory Board becomes subject to any of the disqualifications specified in section 62, his seat shall become vacant."
+    },
+    "64" : {
+      "about" : "Meetings of central advisory board on disability",
+      "1" : "The Central Advisory Board shall meet at least once in every six months and shall observe such rules of procedure in regard to the transaction of business at its meetings as may be prescribed."
+    },
+    "65" : {
+      "about" : "Function of central advisory board on disability",
+      "1" : "Subject to the provisions of this Act, the Central Advisory Board on disability shall be the national-level consultative and advisory body on disability matters, and shall facilitate the continuous evolution of a comprehensive policy for the empowerment of persons with disabilities and the full enjoyment of rights.",
+      "2" : {
+        "1" : "In particular and without prejudice to the generality of the foregoing provisions, the Central Advisory Board on disability shall perform the following functions, namely:— (a) advise the Central Government and the State Governments on policies, programmes, legislation and projects with respect to disability;",
+        "2" : "develop a national policy to address issues concerning persons with disabilities;",
+        "3" : "review and coordinate the activities of all Departments of the Government and other Governmental and non-Governmental Organisations which are dealing with matters relating to persons with disabilities;",
+        "4" : "take up the cause of persons with disabilities with the concerned authorities and the international organisations with a view to provide for schemes and projects for the persons with disabilities in the national plans;",
+        "5" : "recommend steps to ensure accessibility, reasonable accommodation, non-discrimination for persons with disabilities vis-à-vis information, services and the built environment and their participation in social life;",
+        "6" : "monitor and evaluate the impact of laws, policies and programmes to achieve full participation of persons with disabilities; and",
+        "7" : "such other functions as may be assigned from time to time by the Central Government."
+      }
+    },
+    "66" : {
+      "about" : "State advisory board on disability",
+      "1" : "Every State Government shall, by notification, constitute a body to be known as the State Advisory Board on disability to exercise the powers conferred on, and to perform the function assigned to it, under this Act.",
+      "2" : {
+        "1" : "The State Advisory Board shall consist of- (a) the Minister in charge of the Department in the State Government dealing with disability matters, Chairperson, ex officio;",
+        "2" : "the Minister of State or the Deputy Minister in charge of the Department in the State Government dealing with disability matters, if any, Vice-Chairperson, ex officio;",
+        "3" : "secretaries to the State Government in charge of the Departments of Disability Affairs, School Education, Literacy and Higher Education, Women and Child Development, Finance, Personnel and Training, Health and Family Welfare, Rural Development, Panchayati Raj, Industrial Policy and Promotion, Labour and Employment,  Urban Development, Housing and Urban Poverty Alleviation, Science and Technology, Information Technology, Public Enterprises, Youth Affairs and Sports, Road Transport and any other Department, which the State Government considers necessary, Members, ex officio;",
+        "4" : "three Members of the State Legislature of whom two shall be elected by the Legislative Assembly and one by the Legislative Council, if any, and where there is no Legislative Council, three Members shall be elected by the Legislative Assembly, Members, ex officio; Vacation of seats by",
+        "5" : "Members to be nominated by the State Government:— (i) five Members who are experts in the field of disability and rehabilitation; (ii) five Members to be nominated by the State Government by rotation to represent the districts in such manner as may be prescribed: Provided that no nomination under this sub-clause shall be made except on the recommendation of the district administration concerned; (iii) ten persons as far as practicable, being persons with disabilities, to represent non-Governmental Organisations or associations which are concerned with disabilities: Provided that out of the ten persons nominated under this clause, at least, five shall be women and at least one person each shall be from the Scheduled Castes and the Scheduled Tribes; (iv) not more than three representatives of the State Chamber of Commerce and Industry;",
+        "6" : "officer not below the rank of Joint Secretary in the Department dealing with disability matters in the State Government, Member-Secretary, ex officio."
+      }
+    },
+    "67" : {
+      "about" : "Terms and conditions of service of members",
+      "1" : "Save as otherwise provided under this Act, a Member of the State Advisory Board nominated under clause (e) of sub-section (2) of section 66, shall hold office for a term of three years from the date of his nomination: Provided that such a Member shall, notwithstanding the expiration of his term, continue to hold office until his successor enters upon his office.",
+      "2" : "The State Government may, if it thinks fit, remove any Member nominated under clause (e) of sub-section (2) of section 66, before the expiry of his term of office after giving  him a reasonable opportunity of showing cause against the same.",
+      "3" : "A Member nominated under clause (e) of sub-section (2) of section 66 may at any time resign his office by writing under his hand addressed to the State Government and the seat of the said Member shall thereupon become vacant.",
+      "4" : "A casual vacancy in the State Advisory Board shall be filled by a fresh nomination and the person nominated to fill the vacancy shall hold office only for the remainder of the term for which the Member in whose place he was so nominated.",
+      "5" : "A Member nominated under sub-clause (i) or sub-clause (iii) of clause (e) of sub-section (2) of section 66 shall be eligible for renomination.",
+      "6" : "The Members nominated under sub-clause (i) and sub-clause (ii) of clause (e) of sub-section (2) of section 66 shall receive such allowances as may be prescribed by the State Government."
+    },
+    "68" : {
+      "about" : "Disqualifications",
+      "1" : {
+        "1" : "No person shall be a Member of the State Advisory Board, who— (a) is, or at any time has been, adjudged insolvent or has suspended payment of his debts or has compounded with his creditors, or",
+        "2" : "is of unsound mind and stands so declared by a competent court, or",
+        "3" : "is, or has been, convicted of an offence which, in the opinion of the State Government, involves moral turpitude, or",
+        "4" : "is, or at any time has been, convicted of an offence under this Act, or",
+        "5" : "has so abused in the opinion of the State Government his position as a Member as to render his continuance in the State Advisory Board detrimental to the interests of the general public."
+      },
+      "2" : "No order of removal shall be made by the State Government under this section unless the Member concerned has been given a reasonable opportunity of showing cause against the same.",
+      "3" : "Notwithstanding anything contained in sub-section (1) or sub-section (5) of section 67, a Member who has been removed under this section shall not be eligible for renomination as a Member." 
+    },
+    "69" : {
+      "about" : "Vacation of seats",
+      "1" : "If a Member of the State Advisory Board becomes subject to any of the disqualifications specified in section 68 his seat shall become vacant."
+    },
+    "70" : {
+      "about" : "Meetings of state advisory boards of disability",
+      "1" : "The State Advisory Board shall meet at least once in every six months and shall observe such rules or procedure in regard to the transaction of business at its meetings as may be prescribed by the State Government."
+    },
+    "71" : {
+      "about" : "Function of State advisory board on disability",
+      "1" : "Subject to the provisions of this Act, the State Advisory Board shall be the State-level consultative and advisory body on disability matters, and shall facilitate the continuous evolution of a comprehensive policy for the empowerment of persons with disabilities and the full enjoyment of rights.",
+      "2" : {
+        "1" : "In particular and without prejudice to the generality of the foregoing provisions, the State Advisory Board on disability shall perform the following functions, namely:— (a) advise the State Government on policies, programmes, legislation and projects with respect to disability;",
+        "2" : "develop a State policy to address issues concerning persons with disabilities;",
+        "3" : "review and coordinate the activities of all Departments of the State Government and other Governmental and non-Governmental Organisations in the State which are dealing with matters relating to persons with disabilities;",
+        "4" : "take up the cause of persons with disabilities with the concerned authorities and the international organisations with a view to provide for schemes and projects for the persons with disabilities in the State plans;",
+        "5" : "recommend steps to ensure accessibility, reasonable accommodation, non-discrimination for persons with disabilities, services and the built environment and their participation in social life on an equal basis with others;",
+        "6" : "monitor and evaluate the impact of laws, policies and programmes designed to achieve full participation of persons with disabilities; and",
+        "7" : "such other functions as may be assigned from time to time by the State Government."
+      }
+    },
+    "72" : {
+      "about" : "District level committees on disability",
+      "1" : "The State Government shall constitute District-level Committee on disability to perform such functions as may be prescribed by it."
+    },
+    "73" : {
+      "about" : "Vacancies not to invalidate proceedings",
+      "1" : "No act or proceeding of the Central Advisory Board on disability, a State Advisory Board on disability, or a District-level Committee on disability shall be called in question on the ground merely of the existence of any vacancy in or any defect in the constitution of such Board or Committee, as the case may be."
+    },
+    "74" : {
+      "about" : "Appointment of Chief Commissioner and Commissioners",
+      "1" : "74. (1) The Central Government may, by notification, appoint a Chief Commissioner for Persons with Disabilities (hereinafter referred to as the 'Chief Commissioner') for the purposes of this Act.",
+      "2" : "(2) The Central Government may, by notification appoint two Commissioners to assist the Chief Commissioner, of which one Commissioner shall be a persons with disability. Vacation of seats. Meetings of State Advisory Board on disability.",
+      "3" : " (3) A person shall not be qualified for appointment as the Chief Commissioner or Commissioner unless he has special knowledge or practical experience in respect of matters relating to rehabilitation.",
+      "4" : "(4) The salary and allowances payable to and other terms and conditions of service (including pension, gratuity and other retirement benefits) of the Chief Commissioner and Commissioners shall be such as may be prescribed by the Central Government.",
+      "5" : "(5) The Central Government shall determine the nature and categories of officers and other employees required to assist the Chief Commissioner in the discharge of his functions and provide the Chief Commissioner with such officers and other employees as it thinks fit.",
+      "6" : "(6) The officers and employees provided to the Chief Commissioner shall discharge their functions under the general superintendence and control of the Chief Commissioner.",
+      "7" : "(7) The salaries and allowances and other conditions of service of officers and employees shall be such as may be prescribed by the Central Government.",
+      "8" : "(8) The Chief Commissioner shall be assisted by an advisory committee comprising of not more than eleven members drawn from the experts from different disabilities in such manner as may be prescribed by the Central Government."
     }
   }
 }
